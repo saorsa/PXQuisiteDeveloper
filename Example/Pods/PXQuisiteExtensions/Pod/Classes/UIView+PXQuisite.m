@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////
+//
+//  UIView+PXQuisite.m
+//  Pods
+//
+//  Created by Dragolov,Atanas on 19.03.15.
+//
+/////////////////////////////////////////////////////////////////////////
+#import "UIView+PXQuisite.h"
+
+@implementation UIView (PXQuisite)
+
+- (void)applyAutoresizeAll {
+
+    self.autoresizingMask = UIViewAutoresizingAll;
+}
+
+@end

@@ -1,0 +1,17 @@
+PODS:
+  - PXQuisiteDeveloper (0.1.0):
+    - PXQuisiteExtensions
+  - PXQuisiteExtensions (0.3.1)
+
+DEPENDENCIES:
+  - PXQuisiteDeveloper (from `../`)
+
+EXTERNAL SOURCES:
+  PXQuisiteDeveloper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PXQuisiteDeveloper: 43cd21c0ec82c4dd4396636dc2d57b51f3d2d47e
+  PXQuisiteExtensions: 7835e6595375228132d3b51ade4a6775343523ae
+
+COCOAPODS: 0.36.0

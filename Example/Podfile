@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'PXQuisiteDeveloper', :exclusive => true do
+  pod "PXQuisiteDeveloper", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "PXQuisiteDeveloper", :path => "../"
+
+  
+end

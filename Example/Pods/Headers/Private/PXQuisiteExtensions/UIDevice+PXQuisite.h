@@ -1,0 +1,1 @@
+../../../PXQuisiteExtensions/Pod/Classes/UIDevice+PXQuisite.h
