@@ -11,17 +11,10 @@
 @implementation PXQIndexedObjectPreviewCell
 
 @synthesize indexLabel = _indexLabel;
-@synthesize classnameLabel = _classnameLabel;
-@synthesize valueLabel = _valueLabel;
-
-@synthesize dataItem = _dataItem;
-@synthesize indexPath = _indexPath;
 
 - (void)dataBind:(NSObject *)object forIndexPath:(NSIndexPath *)indexPath {
     
-    _dataItem = object;
-    
-    _indexPath = indexPath;
+    [super dataBind:object forIndexPath:indexPath];
     
     if ( indexPath ) {
         
@@ -30,19 +23,6 @@
     else {
         
         _indexLabel.text = @"";
-    }
-    
-    if ( object ) {
-        
-        _classnameLabel.text = NSStringFromClass(object.class);
-        
-        _valueLabel.text = [object description];
-    }
-    else {
-        
-        _classnameLabel.text = @"Null object reference";
-        
-        _valueLabel.text = @"";
     }
 }
 

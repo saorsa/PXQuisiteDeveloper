@@ -26,6 +26,9 @@
   "dependencies": {
     "PXQuisiteExtensions": [
 
+    ],
+    "LINQ4Obj-C": [
+
     ]
   }
 }

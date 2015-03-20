@@ -8,8 +8,8 @@
 ///////////////////////////////////////////////////////////////////////////
 #import "PXQArrayPreviewController.h"
 #import "PXQIndexedObjectPreviewCell.h"
-#import <PXQuisiteExtensions/PXQuisiteExtensions.h>
 #import "NSBundle+PXQuisiteDeveloper.h"
+#import <PXQuisiteExtensions/PXQuisiteExtensions.h>
 
 @interface PXQArrayPreviewController ()
 

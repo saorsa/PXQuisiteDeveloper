@@ -10,5 +10,6 @@
 #import "NSBundle+PXQuisiteDeveloper.h"
 
 #import "PXQArrayPreviewController.h"
+#import "PXQDictionaryPreviewController.h"
 
-#import "PXQObjectPreviewCell.h"
+#import "PXQIndexedObjectPreviewCell.h"

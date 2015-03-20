@@ -7,7 +7,8 @@
 //
 
 #import "PXQViewController.h"
-#import <PXQuisiteDeveloper/PXQArrayPreviewController.h>
+#import <PXQuisiteDeveloper/PXQuisiteDeveloper.h>
+#import <PXQuisiteExtensions/PXQuisiteExtensions.h>
 
 @interface PXQViewController ()
 
@@ -34,9 +35,19 @@
     
     PXQArrayPreviewController * arr = [PXQArrayPreviewController new];
     
-    [self presentViewController:arr animated:YES completion:^{
+    PXQDictionaryPreviewController * dic = [PXQDictionaryPreviewController new];
+    
+    [self presentViewController:dic animated:YES completion:^{
         
-        [arr dataBind:@[@"Atanas", @"Dragolov", @(NO), [NSDate date], [NSNull null]]];
+        [dic dataBind:
+         
+         @{
+           @"Screens" : @[
+                   [[UIDevice currentDevice] dictionaryRepresentation],
+                   [[UIScreen mainScreen] dictionaryRepresentation],
+                   ]
+           }
+         ];
     }];
 }
 
