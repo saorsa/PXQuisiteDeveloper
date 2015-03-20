@@ -14,4 +14,8 @@
 
 - (NSMutableDictionary *)mutableDeepCopy;
 
+- (NSString *)jsonify:(NSError *__autoreleasing*)error;
+
+- (NSString *)jsonifyWithOptions:(NSJSONWritingOptions)options error:(NSError *__autoreleasing*)error;
+
 @end

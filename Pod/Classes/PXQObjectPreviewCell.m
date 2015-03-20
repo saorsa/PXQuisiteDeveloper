@@ -7,6 +7,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////
 #import "PXQObjectPreviewCell.h"
+#import <PXQuisiteExtensions/PXQuisiteExtensions.h>
 
 @implementation PXQObjectPreviewCell
 
@@ -26,7 +27,32 @@
         
         _classnameLabel.text = NSStringFromClass(object.class);
         
-        _valueLabel.text = [object description];
+        if ( [object isKindOfClass:[NSDictionary class]] ) {
+            
+            NSError * jsonifyError = nil;
+            
+            _valueLabel.text = [[((NSDictionary *)object) jsonify:&jsonifyError] stringByReplacingOccurrencesOfString:@"\n" withString:@" "];
+            
+            if (jsonifyError) {
+                
+                _valueLabel.text = [jsonifyError description];
+            }
+        }
+        else if ( [object isKindOfClass:[NSArray class]] ) {
+            
+            NSError * jsonifyError = nil;
+            
+            _valueLabel.text = [[((NSArray *)object) jsonify:&jsonifyError] stringByReplacingOccurrencesOfString:@"\n" withString:@" "];
+            
+            if (jsonifyError) {
+                
+                _valueLabel.text = [jsonifyError description];
+            }
+        }
+        else {
+            
+            _valueLabel.text = [object description];
+        }
     }
     else {
         

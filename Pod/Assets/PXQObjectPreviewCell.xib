@@ -22,7 +22,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#value#" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPg-i5-UEv">
-                        <rect key="frame" x="33" y="44" width="50" height="17"/>
+                        <rect key="frame" x="33" y="44" width="264" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.45882352939999999" green="0.67843137249999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
@@ -33,6 +33,7 @@
                     <constraint firstItem="jO4-ZJ-Uzw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="25" id="9hK-su-apT"/>
                     <constraint firstItem="iPg-i5-UEv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="25" id="ODx-DS-bD2"/>
                     <constraint firstItem="iPg-i5-UEv" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="U7J-I9-sTK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="iPg-i5-UEv" secondAttribute="trailing" constant="15" id="tsL-1N-1Fc"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

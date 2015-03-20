@@ -3,7 +3,7 @@ PODS:
   - PXQuisiteDeveloper (0.1.0):
     - LINQ4Obj-C
     - PXQuisiteExtensions
-  - PXQuisiteExtensions (0.3.1)
+  - PXQuisiteExtensions (0.3.2)
 
 DEPENDENCIES:
   - PXQuisiteDeveloper (from `../`)
@@ -15,6 +15,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   LINQ4Obj-C: 21cc3a91c669ee64882594b6f6c33e6c7f76ae67
   PXQuisiteDeveloper: 0774310dd66766fee61fcc06341ecd06c5151060
-  PXQuisiteExtensions: 7835e6595375228132d3b51ade4a6775343523ae
+  PXQuisiteExtensions: 5b8f130a581a82b775e2a90941b2fe348a3ff1f8
 
 COCOAPODS: 0.36.0

@@ -87,4 +87,29 @@
     return result;
 }
 
+- (NSString *)jsonify:(NSError *__autoreleasing*)error {
+    
+    return [self jsonifyWithOptions:NSJSONWritingPrettyPrinted error:error];
+}
+
+- (NSString *)jsonifyWithOptions:(NSJSONWritingOptions)options error:(NSError *__autoreleasing*)error {
+    
+    NSError * serializeError = nil;
+    
+    NSData * jsonData = [NSJSONSerialization dataWithJSONObject:self options:options error:&serializeError];
+    
+    if ( ! serializeError ) {
+        
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        
+        return jsonString;
+    }
+    else if ( error != NULL ) {
+        
+        *error = serializeError;
+    }
+    
+    return nil;
+}
+
 @end

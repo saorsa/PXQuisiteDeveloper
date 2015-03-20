@@ -38,7 +38,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#value#" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZx-RA-MkX">
-                        <rect key="frame" x="74" y="44" width="50" height="17"/>
+                        <rect key="frame" x="74" y="44" width="223" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <color key="textColor" red="0.45882352939999999" green="0.67843137249999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
@@ -50,6 +50,7 @@
                     <constraint firstItem="fZx-RA-MkX" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="HUM-sg-Axo" userLabel="#value# - Vertical Bottom"/>
                     <constraint firstItem="Frf-2j-jTX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-5" id="Nc1-zD-M4p" userLabel="#Separator# - Vertical Top"/>
                     <constraint firstItem="adJ-Ba-Hin" firstAttribute="leading" secondItem="Frf-2j-jTX" secondAttribute="trailing" constant="15" id="PQK-zS-IHu" userLabel="#class# - #Separator# - Horizontal Space"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fZx-RA-MkX" secondAttribute="trailing" constant="15" id="Uap-DD-ho4"/>
                     <constraint firstItem="adJ-Ba-Hin" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="bxj-70-BtH" userLabel="#class# - Vertical Top"/>
                     <constraint firstAttribute="centerY" secondItem="f1q-tM-EKe" secondAttribute="centerY" id="qOA-Hb-7IX" userLabel="#index# - Vertical Center"/>
                     <constraint firstItem="f1q-tM-EKe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="rKW-9Y-F6p" userLabel="#index# - Content View"/>
