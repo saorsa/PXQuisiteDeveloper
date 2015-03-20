@@ -8,7 +8,11 @@
 ///////////////////////////////////////////////////////////////////////////
 #import <UIKit/UIKit.h>
 
-@interface URSArrayPreviewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
+/**
+    View controller used to display array items information into a 
+    table view / list format.
+ */
+@interface PXQArrayPreviewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
  
     @protected IBOutlet UITableView * _tableView;
     

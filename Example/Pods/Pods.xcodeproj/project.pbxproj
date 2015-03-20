@@ -7,799 +7,724 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C8216F06C9530CAF0DBEB8 /* NSObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDA37EE5F31503CDF39437 /* NSObject+PXQuisite.m */; };
-		042B4F32AB2C1470D468ED2B /* NSMutableArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 638797233AD11088E1D3B015 /* NSMutableArray+PXQuisite.m */; };
-		07C154C6564981BD12E0AC22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED512D7B929E57E51A92E1A /* Foundation.framework */; };
-		0E7194B8A08AAFB35923BA89 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC79204E77AF043EDAEF3CE /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m */; };
-		0E8DB5D49357E25504271D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED512D7B929E57E51A92E1A /* Foundation.framework */; };
-		1416FAC8FC91C9985D08745D /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B888195BB8ABA033FE834867 /* Pods-Tests-dummy.m */; };
-		15A923E787EBDCF00708225B /* NSMutableArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 638797233AD11088E1D3B015 /* NSMutableArray+PXQuisite.m */; };
-		175AEF1BDD032525AB98DCDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED512D7B929E57E51A92E1A /* Foundation.framework */; };
-		1AD4CA3D77C8097769C98E70 /* NSArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = B3915E5FE89A5DDF9F796417 /* NSArray+PXQuisite.m */; };
-		1E2465B2A688331E43DAB47B /* UIDevice+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = CA993A9D6E0F394647678F58 /* UIDevice+PXQuisite.m */; };
-		1EF7D32696700747C9950100 /* NSObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDA37EE5F31503CDF39437 /* NSObject+PXQuisite.m */; };
-		20330BE937B06BB76490D0C9 /* UIView+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D1D4A0072B74F01193CDF4 /* UIView+PXQuisite.m */; };
-		224342F29EF7DFD7555388A6 /* NSException+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 407719820E026B1810EFE9FA /* NSException+PXQuisite.h */; };
-		2437ED6B3C9DE44A9F5F4115 /* NSDateFormatter+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = B70112C4C2F29D393D30D298 /* NSDateFormatter+PXQuisite.h */; };
-		24AB11ABA2FF1409DE9C540F /* UIApplication+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF832E038A722DBF9A6C64 /* UIApplication+PXQuisite.h */; };
-		25F99FDF1C157657AE60FCC1 /* NSMutableDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 312A520B4ED13036D2423A20 /* NSMutableDictionary+PXQuisite.m */; };
-		2C8A5FF2D9BF7391E9863D31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED512D7B929E57E51A92E1A /* Foundation.framework */; };
-		2F6BA16913A5A164C6B81B73 /* URSArrayPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAB322F4518C84A975A79D4 /* URSArrayPreviewController.h */; };
-		305A92D17610D7C1BF106684 /* NSString+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 498928DB21A5A1CDDD88C199 /* NSString+PXQuisite.m */; };
-		3563CFDD4E2EBACAD15D850B /* UIApplication+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = F321AC17B775BA5F3330F537 /* UIApplication+PXQuisite.m */; };
-		3704E0E52209BEEF91B38A97 /* URSArrayPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A56D0CCC1C9129EC97D3A2 /* URSArrayPreviewController.m */; };
-		39ABC30B47CD64C7CBCE58B0 /* NSDate+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A99AC76494B7288BB7CF82 /* NSDate+PXQuisite.m */; };
-		3C44E924FE31B76749BD5AA4 /* NSException+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 407719820E026B1810EFE9FA /* NSException+PXQuisite.h */; };
-		41E156EF6E9DE7CA4C7F7B47 /* UIApplication+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = F321AC17B775BA5F3330F537 /* UIApplication+PXQuisite.m */; };
-		439FCC220CF9707D0E8D8070 /* NSMutableDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 312A520B4ED13036D2423A20 /* NSMutableDictionary+PXQuisite.m */; };
-		44791E3337AA30E30C4B1E64 /* NSMutableDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F86061CE763F92CA9FFAC0 /* NSMutableDictionary+PXQuisite.h */; };
-		44A3AACA999B305603FEFAC3 /* NSMutableDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F86061CE763F92CA9FFAC0 /* NSMutableDictionary+PXQuisite.h */; };
-		462686DF473E0FFB2C31EADF /* UIDevice+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A55F65DDD2186935F138166 /* UIDevice+PXQuisite.h */; };
-		4A133B00DE3A2EDFB97152EF /* NSException+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D5AB3574AD8EA528C0153E /* NSException+PXQuisite.m */; };
-		51D79ED7050F865FD627182A /* NSDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A54251A549AD7BD8F5159AAC /* NSDictionary+PXQuisite.m */; };
-		569577793019BFC73F907FA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED512D7B929E57E51A92E1A /* Foundation.framework */; };
-		56A55BDF575C2ED4F95DD95C /* NSURL+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B04D0CD32E392909FDD64 /* NSURL+PXQuisite.m */; };
-		5CE09EF230DB324709CEE2A5 /* UIScreen+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC6067175B46ACDD1EF90CF /* UIScreen+PXQuisite.h */; };
-		5E91BB605F75202ADBEB78FA /* UIDevice+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = CA993A9D6E0F394647678F58 /* UIDevice+PXQuisite.m */; };
-		644C63A78E2AD5CEE754D97F /* NSDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC4E7B3C8154FD6963793F4 /* NSDictionary+PXQuisite.h */; };
-		64A635DC4B82D17DC4F9AF1D /* UIApplication+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CEFF832E038A722DBF9A6C64 /* UIApplication+PXQuisite.h */; };
-		67D0821C329A4A4F8AE48FC3 /* Pods-Tests-PXQuisiteDeveloper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8229B62372A023406244459E /* Pods-Tests-PXQuisiteDeveloper-dummy.m */; };
-		6D6E761C70C742B686A80B2F /* UIView+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D1D4A0072B74F01193CDF4 /* UIView+PXQuisite.m */; };
-		6F24022FCB6F7886C0ECC71A /* NSObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA29E14149E156050F85DCB /* NSObject+PXQuisite.h */; };
-		70495ED4167613EC1B51356D /* UIView+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EDF5074827C9E4C3824045 /* UIView+PXQuisite.h */; };
-		706CD1928AE09100CDA89254 /* NSDateFormatter+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = B70112C4C2F29D393D30D298 /* NSDateFormatter+PXQuisite.h */; };
-		714CB6BE1AE10603F2066057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED512D7B929E57E51A92E1A /* Foundation.framework */; };
-		7600C817FC38AA47C3EDAB64 /* UIDevice+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A55F65DDD2186935F138166 /* UIDevice+PXQuisite.h */; };
-		7A9EAA1B61F14C6B57FB3F1F /* NSBundle+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F6BBF1FC26F9671E1574A0C0 /* NSBundle+PXQuisite.h */; };
-		7E3798254F265567E100C88F /* Pods-PXQuisiteDeveloper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C08172575613A22C3BDFB27 /* Pods-PXQuisiteDeveloper-dummy.m */; };
-		7F635AFB7699CA84D2014E49 /* NSArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 89530897C9A104778B70D815 /* NSArray+PXQuisite.h */; };
-		845127B4F09DE9F09C9DBB54 /* NSError+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A3983680E588B0E23A5E09 /* NSError+PXQuisite.m */; };
-		8B0B72E09EC934BEE23D8E43 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B856168A1D90308A0D40AB15 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m */; };
-		91B31988DB5B57EAF34A4773 /* NSError+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9472BAF2D6FD0B0D701130 /* NSError+PXQuisite.h */; };
-		93271B8F2BD101469366C4C6 /* UIScreenMode+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E11F155258139F9677359741 /* UIScreenMode+PXQuisite.m */; };
-		94454B5675F2C57D2A63E711 /* UIScreenMode+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E11F155258139F9677359741 /* UIScreenMode+PXQuisite.m */; };
-		95E56E4A0A3414BE37A75836 /* NSDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A54251A549AD7BD8F5159AAC /* NSDictionary+PXQuisite.m */; };
-		960A1554A2B2611D72C4FB7B /* NSString+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B455B8381D90EAC2C5F499A /* NSString+PXQuisite.h */; };
-		9ACFA91CF9C1C36334713AC0 /* NSDate+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = D9742EDFC04FE7B0F33462C9 /* NSDate+PXQuisite.h */; };
-		9E3C3D28BE8B0852E55EFEEE /* NSArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = B3915E5FE89A5DDF9F796417 /* NSArray+PXQuisite.m */; };
-		A062BCAD1F0395A0197DEE2D /* UIScreenMode+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBD61078B5B004344CE6A82 /* UIScreenMode+PXQuisite.h */; };
-		A22FE7B86E9DEA7605111CC0 /* NSString+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 498928DB21A5A1CDDD88C199 /* NSString+PXQuisite.m */; };
-		A615C4EB12535C7BF629C221 /* UIScreenMode+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBD61078B5B004344CE6A82 /* UIScreenMode+PXQuisite.h */; };
-		A894CBAEE60D13F9DEE4DC09 /* NSObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA29E14149E156050F85DCB /* NSObject+PXQuisite.h */; };
-		A981F23380B215166891EA33 /* NSDate+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A99AC76494B7288BB7CF82 /* NSDate+PXQuisite.m */; };
-		B0E86569B448F5D090957675 /* URSArrayPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08696691B8FFB01B8A795E9 /* URSArrayPreviewController.xib */; };
-		B2D1887EE100F032E8042565 /* NSBundle+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F6BBF1FC26F9671E1574A0C0 /* NSBundle+PXQuisite.h */; };
-		B312A2C14002B33A1B715DB8 /* UIView+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EDF5074827C9E4C3824045 /* UIView+PXQuisite.h */; };
-		B3BDA8C5FBB30EB3ECDFEB3A /* NSDateFormatter+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F72B58A4A79E77761229672 /* NSDateFormatter+PXQuisite.m */; };
-		B6E873C946840DC6969CCB34 /* NSDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC4E7B3C8154FD6963793F4 /* NSDictionary+PXQuisite.h */; };
-		BEC7B832AA8FE54C28634117 /* NSURL+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 771544010C80A74A5F08BC74 /* NSURL+PXQuisite.h */; };
-		C435DC282B4276C382159D49 /* NSURL+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6B04D0CD32E392909FDD64 /* NSURL+PXQuisite.m */; };
-		C7F610D29A276687A7DC76D2 /* NSString+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B455B8381D90EAC2C5F499A /* NSString+PXQuisite.h */; };
-		C7FD221FD4CFFB2E754F33B4 /* NSBundle+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E42C5800BC982364695DCF /* NSBundle+PXQuisite.m */; };
-		C9708FFB77444ACB9357E1A8 /* NSMutableArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5E89AB6C4FC30247668ADB /* NSMutableArray+PXQuisite.h */; };
-		CBC5D0A5A035B80486AEE2B7 /* URSArrayPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A56D0CCC1C9129EC97D3A2 /* URSArrayPreviewController.m */; };
-		CC52CACCFDBD1A707D5A46DB /* NSURL+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 771544010C80A74A5F08BC74 /* NSURL+PXQuisite.h */; };
-		CFDC2E8A709329849CD5D3F4 /* NSArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 89530897C9A104778B70D815 /* NSArray+PXQuisite.h */; };
-		D1851D46F055A3B023A6723D /* Pods-Tests-PXQuisiteExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2057B69E4CFB7EEF97C2A6E5 /* Pods-Tests-PXQuisiteExtensions-dummy.m */; };
-		D296DDEE81BEB115E44208A2 /* NSDate+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = D9742EDFC04FE7B0F33462C9 /* NSDate+PXQuisite.h */; };
-		D7CFF1A03C4A7473F164EA25 /* NSError+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A3983680E588B0E23A5E09 /* NSError+PXQuisite.m */; };
-		D9744B211D55EF054DE1BC71 /* NSBundle+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E42C5800BC982364695DCF /* NSBundle+PXQuisite.m */; };
-		E38C2900809BAF09F6CA99CE /* PXQuisiteExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE1C5197EDD8E3F76A6C278 /* PXQuisiteExtensions.h */; };
-		E4E2687F698B72AD1E74B9CB /* UIScreen+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC6067175B46ACDD1EF90CF /* UIScreen+PXQuisite.h */; };
-		E503E0FAC1C8D1F68ED89E94 /* NSDateFormatter+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F72B58A4A79E77761229672 /* NSDateFormatter+PXQuisite.m */; };
-		E822224FAC35B587F1D2959D /* PXQuisiteExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE1C5197EDD8E3F76A6C278 /* PXQuisiteExtensions.h */; };
-		EA64BFF2C047A44B5189F13E /* UIScreen+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088E7D6A34A84F42DD75AD4 /* UIScreen+PXQuisite.m */; };
-		ED6CDA7803260F8E989AEB4F /* UIScreen+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088E7D6A34A84F42DD75AD4 /* UIScreen+PXQuisite.m */; };
-		EF0AE4C600BC89C48111DCE7 /* NSMutableArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A5E89AB6C4FC30247668ADB /* NSMutableArray+PXQuisite.h */; };
-		EFCC57656729C45C84A9252E /* URSArrayPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08696691B8FFB01B8A795E9 /* URSArrayPreviewController.xib */; };
-		F17BC101AE985D6BCA763D23 /* NSError+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9472BAF2D6FD0B0D701130 /* NSError+PXQuisite.h */; };
-		F5B3D58BD4F358F1E9798EF0 /* NSException+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D5AB3574AD8EA528C0153E /* NSException+PXQuisite.m */; };
-		FD8B731929AC0A8C0EC7FA7E /* URSArrayPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAB322F4518C84A975A79D4 /* URSArrayPreviewController.h */; };
+		0279CDF40BC3C29100C9C990 /* NSDate+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7220EF8CA58556795BF266BC /* NSDate+PXQuisite.h */; };
+		0713DAA07DBD4FADCE4E370B /* NSException+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = E923EBBB602CB26D2812A7EE /* NSException+PXQuisite.h */; };
+		078AAFDACC46A8EDC3CF832C /* NSDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BE883AEBD9695745DBA4EA /* NSDictionary+PXQuisite.h */; };
+		08CAF26A0ADC7582ACA09136 /* NSObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3038B9667DFFF4C9C89DA /* NSObject+PXQuisite.m */; };
+		096D65FFA787FF5EA1D8C81F /* PXQArrayPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADEA06E32E874409B9F0A5 /* PXQArrayPreviewController.m */; };
+		0C5E362CA91DF3F337C5B9A0 /* PXQIndexedObjectPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD36846D18FEAD9A7DAE3A55 /* PXQIndexedObjectPreviewCell.m */; };
+		0D2CAE94E96C8F2BD5DBDCBF /* NSError+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5F2692B5A66D1724D1F42C /* NSError+PXQuisite.h */; };
+		0EF6E27F44EA38209071053F /* NSDateFormatter+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF89EC8D1CA5B84970EE922 /* NSDateFormatter+PXQuisite.m */; };
+		15FB777B679675B55EB0956F /* UIView+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7105B25AA8814B74C92AD /* UIView+PXQuisite.m */; };
+		1993B7E3C609870403716B65 /* NSBundle+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F38C7748BD2AD2A255BFF2 /* NSBundle+PXQuisite.h */; };
+		1E89132E8223E5141DD5949E /* NSDate+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E268149B6E97FE83DD97FC36 /* NSDate+PXQuisite.m */; };
+		1F6E8279A8DBFB76CCF12BF8 /* NSError+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = FED0B5A52C8EF912137977B0 /* NSError+PXQuisite.m */; };
+		26081C98A5703D71E0157E1F /* UIScreen+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B7BF862F0EE14AC4AE487 /* UIScreen+PXQuisite.h */; };
+		277AA2E824328755DC90C5D0 /* UIView+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7FA3F9F843F8F58DEBBC0F /* UIView+PXQuisite.h */; };
+		284C323B8443C96E23776028 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16322D12A37473F79F8B88F6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m */; };
+		2AD977781788EB3C01430222 /* NSMutableArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D39AFA6900EEDFBC6AFF2F /* NSMutableArray+PXQuisite.m */; };
+		348C116410EB9501BA2D44F3 /* UIScreenMode+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C24A852896F1040C6ABE43 /* UIScreenMode+PXQuisite.m */; };
+		375DE7141A94891CA18CE579 /* Pods-Tests-PXQuisiteDeveloper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 064F77AEF68A94111E6188D4 /* Pods-Tests-PXQuisiteDeveloper-dummy.m */; };
+		3DA6B3A83CDD522744D97282 /* PXQuisiteExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE3E48D5C5722BE406779F6 /* PXQuisiteExtensions.h */; };
+		3E3953B6EBF588298BB93E5A /* NSBundle+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF10061EEF0B8C2E136B7B8 /* NSBundle+PXQuisite.m */; };
+		3F806F801704981F44AC6B07 /* NSString+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6A95F9632B07BA1AD9EE85 /* NSString+PXQuisite.h */; };
+		3F9E61FE3E6E13F7B9154D88 /* UIScreenMode+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CE93A0F901268A00353120 /* UIScreenMode+PXQuisite.h */; };
+		3FC8A9D2565C42C571289C55 /* PXQuisiteDeveloper.h in Headers */ = {isa = PBXBuildFile; fileRef = BA730F13D3042E884FEF2635 /* PXQuisiteDeveloper.h */; };
+		3FEA2FCFE42749BC7D89FCF3 /* NSURL+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC68F5535CD6E05B5E0EF3 /* NSURL+PXQuisite.m */; };
+		46AB1595BEF21F40043DA9A9 /* UIScreen+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51089D7A9667B8A79BC023 /* UIScreen+PXQuisite.m */; };
+		47FBE6D7479D05C8B54A42EF /* UIScreenMode+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C24A852896F1040C6ABE43 /* UIScreenMode+PXQuisite.m */; };
+		48AC8F5F3F692AE55A7313FD /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A60FD14B3464FD57F7476A5C /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m */; };
+		49FC6EAAA6498B68F33CEB69 /* NSMutableArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D39AFA6900EEDFBC6AFF2F /* NSMutableArray+PXQuisite.m */; };
+		4A9835CFE5B075063BBA8A7E /* UIDevice+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 20023E5658EF22591419198E /* UIDevice+PXQuisite.h */; };
+		50473BC94635D99A512321C5 /* NSString+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB375447F41CE2E04A74231 /* NSString+PXQuisite.m */; };
+		50691CE65F068EBE8A9CB413 /* NSMutableArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A258BC454EA518A40594167 /* NSMutableArray+PXQuisite.h */; };
+		5121698904B55193A95A965E /* NSBundle+PXQuisiteDeveloper.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130CACE6A2B5E15D0ECB80 /* NSBundle+PXQuisiteDeveloper.h */; };
+		514992D0DA001461EF8ECB08 /* PXQIndexedObjectPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD36846D18FEAD9A7DAE3A55 /* PXQIndexedObjectPreviewCell.m */; };
+		591059BF411B504AA1C56CAE /* NSError+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = FED0B5A52C8EF912137977B0 /* NSError+PXQuisite.m */; };
+		59ED4B1A940D0F30F990763D /* PXQArrayPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EE786F3A7B713DFD24AD58 /* PXQArrayPreviewController.xib */; };
+		5AAFF7C04A83C4D0515BC5B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58017B7548BAAEB6234FCBBD /* Foundation.framework */; };
+		5C119FC5740B2BF8802145F9 /* NSBundle+PXQuisiteDeveloper.h in Headers */ = {isa = PBXBuildFile; fileRef = BB130CACE6A2B5E15D0ECB80 /* NSBundle+PXQuisiteDeveloper.h */; };
+		5DF005C9E52374F421408685 /* Pods-Tests-PXQuisiteExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A468754AA915C4CF4FA49E2 /* Pods-Tests-PXQuisiteExtensions-dummy.m */; };
+		5E9763563C1C2A285CF53CA5 /* UIApplication+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BC9B9BBA95784D1B536A69 /* UIApplication+PXQuisite.h */; };
+		647726D85C4F743B7889F07E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58017B7548BAAEB6234FCBBD /* Foundation.framework */; };
+		678C631DC48D0583A88A085B /* NSDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0C239BD892A2CE35855B8 /* NSDictionary+PXQuisite.m */; };
+		68EAD634C76CB9AAA5438E16 /* NSDate+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7220EF8CA58556795BF266BC /* NSDate+PXQuisite.h */; };
+		69977B545EBFA5ABD3C7DBCF /* NSMutableDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = E61FA8630C413CCD192DECD4 /* NSMutableDictionary+PXQuisite.h */; };
+		6A81F30A1BE052F827EA7450 /* NSBundle+PXQuisiteDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6C53180B84A64542962A71 /* NSBundle+PXQuisiteDeveloper.m */; };
+		6F4C9F5A9E2D11562F117DB5 /* NSDateFormatter+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF89EC8D1CA5B84970EE922 /* NSDateFormatter+PXQuisite.m */; };
+		734E4F8FCF4A00BF66E5A77F /* UIScreen+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = EF51089D7A9667B8A79BC023 /* UIScreen+PXQuisite.m */; };
+		74E06D769D1F313CF1542056 /* NSObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD67DC7E30FED77C70FC401 /* NSObject+PXQuisite.h */; };
+		7A0925F3671828AD2E624124 /* NSURL+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC68F5535CD6E05B5E0EF3 /* NSURL+PXQuisite.m */; };
+		7E18FF51858BD59F24CF4A83 /* PXQIndexedObjectPreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF05FBA422A83B8591BE3073 /* PXQIndexedObjectPreviewCell.xib */; };
+		849CEA7FB1BBDDACDA4BCF10 /* PXQArrayPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA4428296EFED955B255C9C /* PXQArrayPreviewController.h */; };
+		84BC0C6276B58D93B60A608B /* NSMutableArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A258BC454EA518A40594167 /* NSMutableArray+PXQuisite.h */; };
+		853FAE854DB8383283C39D06 /* PXQIndexedObjectPreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF05FBA422A83B8591BE3073 /* PXQIndexedObjectPreviewCell.xib */; };
+		879F74AD88E1045C38E8D75B /* NSError+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A5F2692B5A66D1724D1F42C /* NSError+PXQuisite.h */; };
+		88DCFA3D355F0817E29DE25F /* NSArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E50B89A59D34524442CF5 /* NSArray+PXQuisite.m */; };
+		8DE5F74E2AA9F0786D1347F4 /* PXQArrayPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA4428296EFED955B255C9C /* PXQArrayPreviewController.h */; };
+		91A416A22D7B537BD6A90D34 /* UIApplication+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8A23992B509F8E46F26F5 /* UIApplication+PXQuisite.m */; };
+		97F89199D7C0A4410570EA63 /* NSDateFormatter+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E15A99B6B0D9E7AA9AF3559 /* NSDateFormatter+PXQuisite.h */; };
+		99A1AB87FF6DE9E02D21E4FC /* UIView+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7FA3F9F843F8F58DEBBC0F /* UIView+PXQuisite.h */; };
+		9ABCF169AF1A395B73DE674A /* NSURL+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDB3DFC2EF0CE1734F9452B /* NSURL+PXQuisite.h */; };
+		9AC94EC5F1DB6D03BB9C496E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58017B7548BAAEB6234FCBBD /* Foundation.framework */; };
+		9CE63A4CA4DC5DF530F76FE7 /* NSObject+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD67DC7E30FED77C70FC401 /* NSObject+PXQuisite.h */; };
+		9FD0A7B8ACE811C8DB88E412 /* NSURL+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDB3DFC2EF0CE1734F9452B /* NSURL+PXQuisite.h */; };
+		A52CB4FDA727FC81C0F2DF6F /* UIDevice+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8271F7B8C1FD737DE61D0F5C /* UIDevice+PXQuisite.m */; };
+		A6C0923B700DB75AADF6966F /* NSException+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8DB7DC7367692873DF4A2F /* NSException+PXQuisite.m */; };
+		A92750ED5F48B9E9C4CDB4C4 /* PXQIndexedObjectPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E10193FF62D8E24317BC4E4C /* PXQIndexedObjectPreviewCell.h */; };
+		ABBF228A3B125D549F2F9DB9 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4ECA6398B82415F5B62928 /* Pods-Tests-dummy.m */; };
+		ACCECC0F416FCBC85C803B7D /* NSDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0C239BD892A2CE35855B8 /* NSDictionary+PXQuisite.m */; };
+		AFE11A7D4CC5DC16DE85DF07 /* UIApplication+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BC9B9BBA95784D1B536A69 /* UIApplication+PXQuisite.h */; };
+		B371933BDC0A350E8C6A99BC /* NSMutableDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B704781D473E24FE2F242FE /* NSMutableDictionary+PXQuisite.m */; };
+		B4A98791991571A9F05984C1 /* NSArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 708E924771F722175543ECF2 /* NSArray+PXQuisite.h */; };
+		B4E5741C95BA8D266D57E28C /* NSMutableDictionary+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B704781D473E24FE2F242FE /* NSMutableDictionary+PXQuisite.m */; };
+		B52BB40394C12BC827DA86BE /* NSDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BE883AEBD9695745DBA4EA /* NSDictionary+PXQuisite.h */; };
+		B55318BFBD10B7FAFD306DFF /* NSException+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = E923EBBB602CB26D2812A7EE /* NSException+PXQuisite.h */; };
+		B72F93EF68A2952164ECADBD /* NSBundle+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F38C7748BD2AD2A255BFF2 /* NSBundle+PXQuisite.h */; };
+		B9C04BBA9EF3820DD213BD4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58017B7548BAAEB6234FCBBD /* Foundation.framework */; };
+		BB58679F9E7211CB6B0FCEE1 /* NSDateFormatter+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E15A99B6B0D9E7AA9AF3559 /* NSDateFormatter+PXQuisite.h */; };
+		BBDBF914AB4D8FE058D7D220 /* UIApplication+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF8A23992B509F8E46F26F5 /* UIApplication+PXQuisite.m */; };
+		C23137168B75B8DD0BD92CB4 /* PXQIndexedObjectPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E10193FF62D8E24317BC4E4C /* PXQIndexedObjectPreviewCell.h */; };
+		C2EBFAE93BF3310AEE7B6A51 /* NSString+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB375447F41CE2E04A74231 /* NSString+PXQuisite.m */; };
+		C3C38CC33568360688EF5817 /* NSBundle+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF10061EEF0B8C2E136B7B8 /* NSBundle+PXQuisite.m */; };
+		C473A6C939706CBA33FAAB63 /* UIView+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD7105B25AA8814B74C92AD /* UIView+PXQuisite.m */; };
+		C4CC55D72F2CD9532924B45D /* NSObject+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3038B9667DFFF4C9C89DA /* NSObject+PXQuisite.m */; };
+		D076CC36ECD206E5E21FC6C7 /* NSException+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8DB7DC7367692873DF4A2F /* NSException+PXQuisite.m */; };
+		D329012B843DD0E80396390B /* NSArray+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 708E924771F722175543ECF2 /* NSArray+PXQuisite.h */; };
+		D385D793BE57B16CB3A86CB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58017B7548BAAEB6234FCBBD /* Foundation.framework */; };
+		D53C12512EBB932D3888E696 /* NSDate+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = E268149B6E97FE83DD97FC36 /* NSDate+PXQuisite.m */; };
+		D75126955F909487E7203A2E /* UIDevice+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8271F7B8C1FD737DE61D0F5C /* UIDevice+PXQuisite.m */; };
+		D80BCBE6C332AD39DEF20FE1 /* NSString+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6A95F9632B07BA1AD9EE85 /* NSString+PXQuisite.h */; };
+		D8C5B8B0B84598469D4B780B /* PXQArrayPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EE786F3A7B713DFD24AD58 /* PXQArrayPreviewController.xib */; };
+		DB6B10DA745D933A2CFABC40 /* NSBundle+PXQuisiteDeveloper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6C53180B84A64542962A71 /* NSBundle+PXQuisiteDeveloper.m */; };
+		DD104AED6B56FD0DDBB5A8D9 /* PXQuisiteExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE3E48D5C5722BE406779F6 /* PXQuisiteExtensions.h */; };
+		E403A2D441C2C3E60E0F4A22 /* UIScreen+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B7BF862F0EE14AC4AE487 /* UIScreen+PXQuisite.h */; };
+		E4C10E4CEA35E1065EFF3054 /* NSMutableDictionary+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = E61FA8630C413CCD192DECD4 /* NSMutableDictionary+PXQuisite.h */; };
+		E611B3D54F38505C6634B11D /* PXQArrayPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CADEA06E32E874409B9F0A5 /* PXQArrayPreviewController.m */; };
+		EE7F4219B2C703CBAD38B446 /* Pods-PXQuisiteDeveloper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3835F9492A85A8758868FAB /* Pods-PXQuisiteDeveloper-dummy.m */; };
+		F1B662003821E29E301DDA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58017B7548BAAEB6234FCBBD /* Foundation.framework */; };
+		F272AECBFEC1675849DC9FAC /* NSArray+PXQuisite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E50B89A59D34524442CF5 /* NSArray+PXQuisite.m */; };
+		F2E2AE2FAA002D003E44ED20 /* PXQuisiteDeveloper.h in Headers */ = {isa = PBXBuildFile; fileRef = BA730F13D3042E884FEF2635 /* PXQuisiteDeveloper.h */; };
+		F3DF6C4E4C31C4C17297F953 /* UIScreenMode+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CE93A0F901268A00353120 /* UIScreenMode+PXQuisite.h */; };
+		FFB7F70CBF91B3CBDE4C0DA2 /* UIDevice+PXQuisite.h in Headers */ = {isa = PBXBuildFile; fileRef = 20023E5658EF22591419198E /* UIDevice+PXQuisite.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39C2481AA5D417F8AB044566 /* PBXContainerItemProxy */ = {
+		213A6AC939270487866EAD5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 96F2D3C9F4793DFFCDDB5367;
-			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
-		};
-		3A7077E3474884FDB6F0FEF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 000138BAA7B306563984E5B9;
-			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
-		};
-		6C9437CC6431C50E3C8A31D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C15ACD1CE5B217273A06E66;
+			remoteGlobalIDString = 8DA900FFE4E59D51A1A6AA2E;
 			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
 		};
-		6E7177E27F9CF847F9BD43D5 /* PBXContainerItemProxy */ = {
+		459E173448E62D5CBD389CD5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8C806EB7C05A83D88638EED;
+			remoteGlobalIDString = 690136742C43F4F302E8FF05;
 			remoteInfo = "Pods-Tests-PXQuisiteExtensions";
 		};
-		7D3F792C476CF3A246DD34EB /* PBXContainerItemProxy */ = {
+		479448A326C4A06D48576DC3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 25A08774CF8C9BC0095EC70E;
-			remoteInfo = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
-		};
-		B4BFC32D3738BEE51EE16DED /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF8F2549480935705AAF20FE;
-			remoteInfo = "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper";
-		};
-		C98F306A289D656A16F9EACF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88F6C19C3D1F0ECF108C4E04;
-			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
-		};
-		D628A216AB36E391E0866362 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C15ACD1CE5B217273A06E66;
-			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
-		};
-		E3DCFD20D048C0D315CE1D7F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7AD35186EB42739056D6C15;
+			remoteGlobalIDString = 1405FAD0A71CB3F6DD3C9E02;
 			remoteInfo = "Pods-Tests-PXQuisiteDeveloper";
 		};
-		E4692A071B5B818D507F84A0 /* PBXContainerItemProxy */ = {
+		535BD5A613A5BB180F05DE62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC89677FE8E00DE385855AF3 /* Project object */;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C8C806EB7C05A83D88638EED;
+			remoteGlobalIDString = 8DA900FFE4E59D51A1A6AA2E;
+			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
+		};
+		5F09F1F4F7A6F0F96F8587BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 690136742C43F4F302E8FF05;
 			remoteInfo = "Pods-Tests-PXQuisiteExtensions";
+		};
+		703D9C4AC57769E783D1584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6587D7A6BA3EC25C0EF5B1;
+			remoteInfo = "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper";
+		};
+		89C5EA268405ECB845AD63E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FBC6722A950A4DFE348667;
+			remoteInfo = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+		};
+		90EAF05DC4C03E732C74ED88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A03F202C24DBF9B5B7BD5C;
+			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
+		};
+		E0D5978082148C922CE37768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A283CA94998A32AF39BD68A8;
+			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
+		};
+		E6FC02D34C93452664E4CB1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1807473CE7B7E5F5B40509FF;
+			remoteInfo = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0088E7D6A34A84F42DD75AD4 /* UIScreen+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+PXQuisite.m"; path = "Pod/Classes/UIScreen+PXQuisite.m"; sourceTree = "<group>"; };
-		04EDF5074827C9E4C3824045 /* UIView+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXQuisite.h"; path = "Pod/Classes/UIView+PXQuisite.h"; sourceTree = "<group>"; };
-		06D1D4A0072B74F01193CDF4 /* UIView+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PXQuisite.m"; path = "Pod/Classes/UIView+PXQuisite.m"; sourceTree = "<group>"; };
-		0EE19368FEEE29A947A16366 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0FC6067175B46ACDD1EF90CF /* UIScreen+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+PXQuisite.h"; path = "Pod/Classes/UIScreen+PXQuisite.h"; sourceTree = "<group>"; };
-		11E42C5800BC982364695DCF /* NSBundle+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+PXQuisite.m"; path = "Pod/Classes/NSBundle+PXQuisite.m"; sourceTree = "<group>"; };
-		1A5E89AB6C4FC30247668ADB /* NSMutableArray+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+PXQuisite.h"; path = "Pod/Classes/NSMutableArray+PXQuisite.h"; sourceTree = "<group>"; };
-		2057B69E4CFB7EEF97C2A6E5 /* Pods-Tests-PXQuisiteExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQuisiteExtensions-dummy.m"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-dummy.m"; sourceTree = "<group>"; };
-		229DE66DA557FCAAD00A223A /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteDeveloper-Private.xcconfig"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-Private.xcconfig"; sourceTree = "<group>"; };
-		2ADC4E612375B2A87AAE7821 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch"; sourceTree = "<group>"; };
-		2CC4E7B3C8154FD6963793F4 /* NSDictionary+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXQuisite.h"; path = "Pod/Classes/NSDictionary+PXQuisite.h"; sourceTree = "<group>"; };
-		2EEE9B3D8ABFC0D32D44E78C /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteExtensions-Private.xcconfig"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-Private.xcconfig"; sourceTree = "<group>"; };
-		312A520B4ED13036D2423A20 /* NSMutableDictionary+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+PXQuisite.m"; path = "Pod/Classes/NSMutableDictionary+PXQuisite.m"; sourceTree = "<group>"; };
-		345793B85314B25FFBB3DFAC /* Pods-Tests-PXQuisiteDeveloper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQuisiteDeveloper-prefix.pch"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-prefix.pch"; sourceTree = "<group>"; };
-		3A0EEEF650E858F9D6AC805C /* libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C08172575613A22C3BDFB27 /* Pods-PXQuisiteDeveloper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQuisiteDeveloper-dummy.m"; sourceTree = "<group>"; };
-		407719820E026B1810EFE9FA /* NSException+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+PXQuisite.h"; path = "Pod/Classes/NSException+PXQuisite.h"; sourceTree = "<group>"; };
-		40D4A9683C56BA22F4C63F73 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		41A99AC76494B7288BB7CF82 /* NSDate+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+PXQuisite.m"; path = "Pod/Classes/NSDate+PXQuisite.m"; sourceTree = "<group>"; };
-		455D9191048D3022151AA146 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		498928DB21A5A1CDDD88C199 /* NSString+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PXQuisite.m"; path = "Pod/Classes/NSString+PXQuisite.m"; sourceTree = "<group>"; };
-		4A55F65DDD2186935F138166 /* UIDevice+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+PXQuisite.h"; path = "Pod/Classes/UIDevice+PXQuisite.h"; sourceTree = "<group>"; };
-		4DCDA37EE5F31503CDF39437 /* NSObject+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PXQuisite.m"; path = "Pod/Classes/NSObject+PXQuisite.m"; sourceTree = "<group>"; };
-		4EBD61078B5B004344CE6A82 /* UIScreenMode+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreenMode+PXQuisite.h"; path = "Pod/Classes/UIScreenMode+PXQuisite.h"; sourceTree = "<group>"; };
-		599873725E1837724E4088B9 /* libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59FEB58CA4E5CABD41686A3C /* libPods-Tests-PXQuisiteDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQuisiteDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ED512D7B929E57E51A92E1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		638797233AD11088E1D3B015 /* NSMutableArray+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+PXQuisite.m"; path = "Pod/Classes/NSMutableArray+PXQuisite.m"; sourceTree = "<group>"; };
-		6DF1D27841C7D09869482D84 /* PXQuisiteDeveloper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteDeveloper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		72A3983680E588B0E23A5E09 /* NSError+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+PXQuisite.m"; path = "Pod/Classes/NSError+PXQuisite.m"; sourceTree = "<group>"; };
-		72F386A85C40BE28D3E95FC5 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		735F272721FEEBCB6BD4DAA7 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch"; sourceTree = "<group>"; };
-		757F5C134FD7ED3BF21F0DD1 /* Pods-Tests-PXQuisiteExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQuisiteExtensions-prefix.pch"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch"; sourceTree = "<group>"; };
-		764CA7D5A57E2522A6DD5E22 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper.xcconfig"; sourceTree = "<group>"; };
-		771544010C80A74A5F08BC74 /* NSURL+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+PXQuisite.h"; path = "Pod/Classes/NSURL+PXQuisite.h"; sourceTree = "<group>"; };
-		7AAB322F4518C84A975A79D4 /* URSArrayPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = URSArrayPreviewController.h; sourceTree = "<group>"; };
-		7B455B8381D90EAC2C5F499A /* NSString+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PXQuisite.h"; path = "Pod/Classes/NSString+PXQuisite.h"; sourceTree = "<group>"; };
-		7C9472BAF2D6FD0B0D701130 /* NSError+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+PXQuisite.h"; path = "Pod/Classes/NSError+PXQuisite.h"; sourceTree = "<group>"; };
-		8229B62372A023406244459E /* Pods-Tests-PXQuisiteDeveloper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQuisiteDeveloper-dummy.m"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-dummy.m"; sourceTree = "<group>"; };
-		84B64B8B3F96EA5B3B62686E /* libPods-Tests-PXQuisiteExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQuisiteExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88168D81332934CCB5F1DDBB /* Pods-PXQuisiteDeveloper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper.debug.xcconfig"; sourceTree = "<group>"; };
-		89530897C9A104778B70D815 /* NSArray+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PXQuisite.h"; path = "Pod/Classes/NSArray+PXQuisite.h"; sourceTree = "<group>"; };
-		8CE1C5197EDD8E3F76A6C278 /* PXQuisiteExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXQuisiteExtensions.h; path = Pod/Classes/PXQuisiteExtensions.h; sourceTree = "<group>"; };
-		948A24B0233E00DDC7919E4B /* Pods-PXQuisiteDeveloper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXQuisiteDeveloper-resources.sh"; sourceTree = "<group>"; };
-		9DC79204E77AF043EDAEF3CE /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m"; sourceTree = "<group>"; };
-		9F72B58A4A79E77761229672 /* NSDateFormatter+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+PXQuisite.m"; path = "Pod/Classes/NSDateFormatter+PXQuisite.m"; sourceTree = "<group>"; };
-		A3F86061CE763F92CA9FFAC0 /* NSMutableDictionary+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+PXQuisite.h"; path = "Pod/Classes/NSMutableDictionary+PXQuisite.h"; sourceTree = "<group>"; };
-		A54251A549AD7BD8F5159AAC /* NSDictionary+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PXQuisite.m"; path = "Pod/Classes/NSDictionary+PXQuisite.m"; sourceTree = "<group>"; };
-		A6A56D0CCC1C9129EC97D3A2 /* URSArrayPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = URSArrayPreviewController.m; sourceTree = "<group>"; };
-		AB6B04D0CD32E392909FDD64 /* NSURL+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+PXQuisite.m"; path = "Pod/Classes/NSURL+PXQuisite.m"; sourceTree = "<group>"; };
-		AEB81057F619A3404134B4C6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B3915E5FE89A5DDF9F796417 /* NSArray+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PXQuisite.m"; path = "Pod/Classes/NSArray+PXQuisite.m"; sourceTree = "<group>"; };
-		B651E363B107F00E09A81C24 /* libPods-PXQuisiteDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQuisiteDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B70112C4C2F29D393D30D298 /* NSDateFormatter+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+PXQuisite.h"; path = "Pod/Classes/NSDateFormatter+PXQuisite.h"; sourceTree = "<group>"; };
-		B856168A1D90308A0D40AB15 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m"; sourceTree = "<group>"; };
-		B888195BB8ABA033FE834867 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		BF9EEEF46B6F71A21E48185D /* PXQuisiteExtensions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteExtensions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1745FBF15DA8CF69E8BF074 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig"; sourceTree = "<group>"; };
-		C2B3960E2914BAE412431ED0 /* PXQuisiteExtensions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteExtensions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D21135151C088E1FECB7E6 /* Pods-PXQuisiteDeveloper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper.release.xcconfig"; sourceTree = "<group>"; };
-		CA993A9D6E0F394647678F58 /* UIDevice+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+PXQuisite.m"; path = "Pod/Classes/UIDevice+PXQuisite.m"; sourceTree = "<group>"; };
-		CD6139FA6FE9FA0AA0A5FD85 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions.xcconfig"; sourceTree = "<group>"; };
-		CE83E594D14BE5479E55B43F /* Pods-Tests-PXQuisiteDeveloper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteDeveloper.xcconfig"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper.xcconfig"; sourceTree = "<group>"; };
-		CEFF832E038A722DBF9A6C64 /* UIApplication+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+PXQuisite.h"; path = "Pod/Classes/UIApplication+PXQuisite.h"; sourceTree = "<group>"; };
-		D4CA91CB43D8BCD520480203 /* Pods-Tests-PXQuisiteExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteExtensions.xcconfig"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions.xcconfig"; sourceTree = "<group>"; };
-		D53CB348BC84B2EFAC1471C9 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		D7A4E0296E9F3CD076438BB2 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D8D5AB3574AD8EA528C0153E /* NSException+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+PXQuisite.m"; path = "Pod/Classes/NSException+PXQuisite.m"; sourceTree = "<group>"; };
-		D9742EDFC04FE7B0F33462C9 /* NSDate+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+PXQuisite.h"; path = "Pod/Classes/NSDate+PXQuisite.h"; sourceTree = "<group>"; };
-		DE0EBC3B252BB3E9924BB985 /* PXQuisiteDeveloper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteDeveloper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E11F155258139F9677359741 /* UIScreenMode+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreenMode+PXQuisite.m"; path = "Pod/Classes/UIScreenMode+PXQuisite.m"; sourceTree = "<group>"; };
-		E7EA50F2B6D3DFAA7E430E69 /* Pods-PXQuisiteDeveloper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXQuisiteDeveloper-acknowledgements.plist"; sourceTree = "<group>"; };
-		E8F87B42FB83018C9FE07A8E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE2AB9007CE24A6140122500 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig"; sourceTree = "<group>"; };
-		EFF902F3682C587EE6B40EE9 /* Pods-PXQuisiteDeveloper-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQuisiteDeveloper-environment.h"; sourceTree = "<group>"; };
-		F08696691B8FFB01B8A795E9 /* URSArrayPreviewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = URSArrayPreviewController.xib; sourceTree = "<group>"; };
-		F321AC17B775BA5F3330F537 /* UIApplication+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+PXQuisite.m"; path = "Pod/Classes/UIApplication+PXQuisite.m"; sourceTree = "<group>"; };
-		F6BBF1FC26F9671E1574A0C0 /* NSBundle+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+PXQuisite.h"; path = "Pod/Classes/NSBundle+PXQuisite.h"; sourceTree = "<group>"; };
-		FD71153CEB8CC0F9A6102665 /* Pods-PXQuisiteDeveloper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXQuisiteDeveloper-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FFA29E14149E156050F85DCB /* NSObject+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXQuisite.h"; path = "Pod/Classes/NSObject+PXQuisite.h"; sourceTree = "<group>"; };
+		03EE786F3A7B713DFD24AD58 /* PXQArrayPreviewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PXQArrayPreviewController.xib; sourceTree = "<group>"; };
+		0570CD4097E3C30A91F49B0A /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch"; sourceTree = "<group>"; };
+		064F77AEF68A94111E6188D4 /* Pods-Tests-PXQuisiteDeveloper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQuisiteDeveloper-dummy.m"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-dummy.m"; sourceTree = "<group>"; };
+		087A873FE403E3050C830F5F /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BA4428296EFED955B255C9C /* PXQArrayPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXQArrayPreviewController.h; sourceTree = "<group>"; };
+		0BC8AEBBF4F19BE35E5337C0 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions.xcconfig"; sourceTree = "<group>"; };
+		16322D12A37473F79F8B88F6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m"; sourceTree = "<group>"; };
+		1B4ECA6398B82415F5B62928 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		1CC597972AC3BBFD8CB00EA3 /* libPods-Tests-PXQuisiteExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQuisiteExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FDCB7DEC5F8C3B839C2AC75 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20023E5658EF22591419198E /* UIDevice+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+PXQuisite.h"; path = "Pod/Classes/UIDevice+PXQuisite.h"; sourceTree = "<group>"; };
+		2234313A35C16067CE57FD25 /* Pods-PXQuisiteDeveloper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper.debug.xcconfig"; sourceTree = "<group>"; };
+		24BE883AEBD9695745DBA4EA /* NSDictionary+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXQuisite.h"; path = "Pod/Classes/NSDictionary+PXQuisite.h"; sourceTree = "<group>"; };
+		25F38C7748BD2AD2A255BFF2 /* NSBundle+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+PXQuisite.h"; path = "Pod/Classes/NSBundle+PXQuisite.h"; sourceTree = "<group>"; };
+		2713063326609E31CBC81090 /* Pods-Tests-PXQuisiteExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteExtensions.xcconfig"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions.xcconfig"; sourceTree = "<group>"; };
+		2AE62093E4B04166D8EFC740 /* Pods-PXQuisiteDeveloper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PXQuisiteDeveloper-resources.sh"; sourceTree = "<group>"; };
+		2B704781D473E24FE2F242FE /* NSMutableDictionary+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+PXQuisite.m"; path = "Pod/Classes/NSMutableDictionary+PXQuisite.m"; sourceTree = "<group>"; };
+		345885C4DE66B8EF13C43BF2 /* PXQuisiteDeveloper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteDeveloper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BB375447F41CE2E04A74231 /* NSString+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PXQuisite.m"; path = "Pod/Classes/NSString+PXQuisite.m"; sourceTree = "<group>"; };
+		41FC98E428D99CFEE20FECF0 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		4B6A95F9632B07BA1AD9EE85 /* NSString+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PXQuisite.h"; path = "Pod/Classes/NSString+PXQuisite.h"; sourceTree = "<group>"; };
+		4B6C53180B84A64542962A71 /* NSBundle+PXQuisiteDeveloper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PXQuisiteDeveloper.m"; sourceTree = "<group>"; };
+		4D8E50B89A59D34524442CF5 /* NSArray+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PXQuisite.m"; path = "Pod/Classes/NSArray+PXQuisite.m"; sourceTree = "<group>"; };
+		4DF582623A83BF6897586213 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch"; sourceTree = "<group>"; };
+		4DF89EC8D1CA5B84970EE922 /* NSDateFormatter+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+PXQuisite.m"; path = "Pod/Classes/NSDateFormatter+PXQuisite.m"; sourceTree = "<group>"; };
+		4E15A99B6B0D9E7AA9AF3559 /* NSDateFormatter+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+PXQuisite.h"; path = "Pod/Classes/NSDateFormatter+PXQuisite.h"; sourceTree = "<group>"; };
+		4ED5B9C3AC3A836FD19482DC /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig"; sourceTree = "<group>"; };
+		4F13FBF2E78628694AF00DE0 /* libPods-PXQuisiteDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQuisiteDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5329EB9ED34F96D4435DD8A7 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper.xcconfig"; sourceTree = "<group>"; };
+		54DD776DA4D9D9FF08BEC0E8 /* Pods-PXQuisiteDeveloper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PXQuisiteDeveloper-acknowledgements.plist"; sourceTree = "<group>"; };
+		58017B7548BAAEB6234FCBBD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A468754AA915C4CF4FA49E2 /* Pods-Tests-PXQuisiteExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-PXQuisiteExtensions-dummy.m"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-dummy.m"; sourceTree = "<group>"; };
+		5AA23FE06108BEC574F86F52 /* Pods-Tests-PXQuisiteDeveloper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteDeveloper.xcconfig"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper.xcconfig"; sourceTree = "<group>"; };
+		5DF8A23992B509F8E46F26F5 /* UIApplication+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+PXQuisite.m"; path = "Pod/Classes/UIApplication+PXQuisite.m"; sourceTree = "<group>"; };
+		6A5F2692B5A66D1724D1F42C /* NSError+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+PXQuisite.h"; path = "Pod/Classes/NSError+PXQuisite.h"; sourceTree = "<group>"; };
+		6EE3E48D5C5722BE406779F6 /* PXQuisiteExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXQuisiteExtensions.h; path = Pod/Classes/PXQuisiteExtensions.h; sourceTree = "<group>"; };
+		708E924771F722175543ECF2 /* NSArray+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PXQuisite.h"; path = "Pod/Classes/NSArray+PXQuisite.h"; sourceTree = "<group>"; };
+		7220EF8CA58556795BF266BC /* NSDate+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+PXQuisite.h"; path = "Pod/Classes/NSDate+PXQuisite.h"; sourceTree = "<group>"; };
+		74BC9B9BBA95784D1B536A69 /* UIApplication+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+PXQuisite.h"; path = "Pod/Classes/UIApplication+PXQuisite.h"; sourceTree = "<group>"; };
+		74D39AFA6900EEDFBC6AFF2F /* NSMutableArray+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+PXQuisite.m"; path = "Pod/Classes/NSMutableArray+PXQuisite.m"; sourceTree = "<group>"; };
+		75ED5CE56151D99F4F796475 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteExtensions-Private.xcconfig"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-Private.xcconfig"; sourceTree = "<group>"; };
+		7A258BC454EA518A40594167 /* NSMutableArray+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+PXQuisite.h"; path = "Pod/Classes/NSMutableArray+PXQuisite.h"; sourceTree = "<group>"; };
+		7BDB3DFC2EF0CE1734F9452B /* NSURL+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+PXQuisite.h"; path = "Pod/Classes/NSURL+PXQuisite.h"; sourceTree = "<group>"; };
+		7EEB6AB39EE970AD3C3FCEB0 /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-PXQuisiteDeveloper-Private.xcconfig"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-Private.xcconfig"; sourceTree = "<group>"; };
+		7FD0C239BD892A2CE35855B8 /* NSDictionary+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+PXQuisite.m"; path = "Pod/Classes/NSDictionary+PXQuisite.m"; sourceTree = "<group>"; };
+		8271F7B8C1FD737DE61D0F5C /* UIDevice+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+PXQuisite.m"; path = "Pod/Classes/UIDevice+PXQuisite.m"; sourceTree = "<group>"; };
+		832688E573F560C787F2A260 /* libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F392B4AEA8D34ADF3DF3FF /* Pods-PXQuisiteDeveloper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PXQuisiteDeveloper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		883E995430733DDAEBD6C200 /* Pods-Tests-PXQuisiteDeveloper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQuisiteDeveloper-prefix.pch"; path = "../Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-prefix.pch"; sourceTree = "<group>"; };
+		8A4DA46BDD4B24B406144EB2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CADEA06E32E874409B9F0A5 /* PXQArrayPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXQArrayPreviewController.m; sourceTree = "<group>"; };
+		97DB78AA60882A30B3B2A112 /* Pods-PXQuisiteDeveloper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper.release.xcconfig"; sourceTree = "<group>"; };
+		A2C24A852896F1040C6ABE43 /* UIScreenMode+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreenMode+PXQuisite.m"; path = "Pod/Classes/UIScreenMode+PXQuisite.m"; sourceTree = "<group>"; };
+		A60FD14B3464FD57F7476A5C /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m"; sourceTree = "<group>"; };
+		AD759F97DAE6232D7A6A2A33 /* PXQuisiteDeveloper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteDeveloper.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDC69670C2CE57772BDAD2C /* libPods-Tests-PXQuisiteDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-PXQuisiteDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDFFC568BB5B70F577A76E1 /* PXQuisiteExtensions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteExtensions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2D8EAA83AE56040040D914 /* Pods-PXQuisiteDeveloper-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PXQuisiteDeveloper-environment.h"; sourceTree = "<group>"; };
+		B3835F9492A85A8758868FAB /* Pods-PXQuisiteDeveloper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PXQuisiteDeveloper-dummy.m"; sourceTree = "<group>"; };
+		B5DD721E0E4E1C2FB0743AAD /* libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA46002FA017AF6F14AC9F8E /* Pods-Tests-PXQuisiteExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-PXQuisiteExtensions-prefix.pch"; path = "../Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch"; sourceTree = "<group>"; };
+		BA730F13D3042E884FEF2635 /* PXQuisiteDeveloper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXQuisiteDeveloper.h; sourceTree = "<group>"; };
+		BB130CACE6A2B5E15D0ECB80 /* NSBundle+PXQuisiteDeveloper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+PXQuisiteDeveloper.h"; sourceTree = "<group>"; };
+		BB58B0FB15EAC513BB3C4799 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		BDDEC6705BB1F29E19963DB6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig"; sourceTree = "<group>"; };
+		C2851045410C5697C3173F86 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2CE93A0F901268A00353120 /* UIScreenMode+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreenMode+PXQuisite.h"; path = "Pod/Classes/UIScreenMode+PXQuisite.h"; sourceTree = "<group>"; };
+		CB7FA3F9F843F8F58DEBBC0F /* UIView+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXQuisite.h"; path = "Pod/Classes/UIView+PXQuisite.h"; sourceTree = "<group>"; };
+		CD36846D18FEAD9A7DAE3A55 /* PXQIndexedObjectPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PXQIndexedObjectPreviewCell.m; sourceTree = "<group>"; };
+		CEE1CB42567E86C110F102A6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD67DC7E30FED77C70FC401 /* NSObject+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXQuisite.h"; path = "Pod/Classes/NSObject+PXQuisite.h"; sourceTree = "<group>"; };
+		DAF3038B9667DFFF4C9C89DA /* NSObject+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PXQuisite.m"; path = "Pod/Classes/NSObject+PXQuisite.m"; sourceTree = "<group>"; };
+		DF05FBA422A83B8591BE3073 /* PXQIndexedObjectPreviewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PXQIndexedObjectPreviewCell.xib; sourceTree = "<group>"; };
+		E10193FF62D8E24317BC4E4C /* PXQIndexedObjectPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PXQIndexedObjectPreviewCell.h; sourceTree = "<group>"; };
+		E268149B6E97FE83DD97FC36 /* NSDate+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+PXQuisite.m"; path = "Pod/Classes/NSDate+PXQuisite.m"; sourceTree = "<group>"; };
+		E61FA8630C413CCD192DECD4 /* NSMutableDictionary+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+PXQuisite.h"; path = "Pod/Classes/NSMutableDictionary+PXQuisite.h"; sourceTree = "<group>"; };
+		E6EC68F5535CD6E05B5E0EF3 /* NSURL+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+PXQuisite.m"; path = "Pod/Classes/NSURL+PXQuisite.m"; sourceTree = "<group>"; };
+		E923EBBB602CB26D2812A7EE /* NSException+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+PXQuisite.h"; path = "Pod/Classes/NSException+PXQuisite.h"; sourceTree = "<group>"; };
+		EA62B82983D916AD5FAC074C /* PXQuisiteExtensions.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PXQuisiteExtensions.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8DB7DC7367692873DF4A2F /* NSException+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+PXQuisite.m"; path = "Pod/Classes/NSException+PXQuisite.m"; sourceTree = "<group>"; };
+		EF51089D7A9667B8A79BC023 /* UIScreen+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+PXQuisite.m"; path = "Pod/Classes/UIScreen+PXQuisite.m"; sourceTree = "<group>"; };
+		EFD7105B25AA8814B74C92AD /* UIView+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PXQuisite.m"; path = "Pod/Classes/UIView+PXQuisite.m"; sourceTree = "<group>"; };
+		F41B7BF862F0EE14AC4AE487 /* UIScreen+PXQuisite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScreen+PXQuisite.h"; path = "Pod/Classes/UIScreen+PXQuisite.h"; sourceTree = "<group>"; };
+		FD9E7ACFD4A43520835D1046 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FDF10061EEF0B8C2E136B7B8 /* NSBundle+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+PXQuisite.m"; path = "Pod/Classes/NSBundle+PXQuisite.m"; sourceTree = "<group>"; };
+		FED0B5A52C8EF912137977B0 /* NSError+PXQuisite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+PXQuisite.m"; path = "Pod/Classes/NSError+PXQuisite.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23D9C28E578A74B2E30F39C4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				569577793019BFC73F907FA3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4403FBAE701B054D6D809B88 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				175AEF1BDD032525AB98DCDD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		925ED80CD0AEFCC2B778C878 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				07C154C6564981BD12E0AC22 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE76E6177A44548857E78778 /* Frameworks */ = {
+		0BA68956B9682B0BEF544DE6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C038022408B8E736DE5810A8 /* Frameworks */ = {
+		0F99E8C68952A1ED6950673A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8DB5D49357E25504271D10 /* Foundation.framework in Frameworks */,
+				B9C04BBA9EF3820DD213BD4C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2691953FADF315FE0EABCA8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				714CB6BE1AE10603F2066057 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1C38C0454E0C8754642C581 /* Frameworks */ = {
+		1119A9819535F8AD539FF157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2FCF106AFB0B546D5A6058F /* Frameworks */ = {
+		55C7519B73BF8E0A9BD0E462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B662003821E29E301DDA4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A7478DE401B3A0FAB9F8DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647726D85C4F743B7889F07E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7245E4894FE398A91FE80D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D385D793BE57B16CB3A86CB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A7A471A5D18CC3D1101242 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC29846F0E7B77A45127033C /* Frameworks */ = {
+		DC818C63E7F23123E38982A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC94EC5F1DB6D03BB9C496E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE123CF73ABC617F7AE612FC /* Frameworks */ = {
+		F6B3A8E8D6DCD81EE8BFED5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C8A5FF2D9BF7391E9863D31 /* Foundation.framework in Frameworks */,
+				5AAFF7C04A83C4D0515BC5B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2C4B847FB8C170B7FBA6E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AC8507BF6610FE924A0F6ED /* Pods-PXQuisiteDeveloper */ = {
+		1AA761BEECFEE4D7F3D40B53 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FD71153CEB8CC0F9A6102665 /* Pods-PXQuisiteDeveloper-acknowledgements.markdown */,
-				E7EA50F2B6D3DFAA7E430E69 /* Pods-PXQuisiteDeveloper-acknowledgements.plist */,
-				3C08172575613A22C3BDFB27 /* Pods-PXQuisiteDeveloper-dummy.m */,
-				EFF902F3682C587EE6B40EE9 /* Pods-PXQuisiteDeveloper-environment.h */,
-				948A24B0233E00DDC7919E4B /* Pods-PXQuisiteDeveloper-resources.sh */,
-				88168D81332934CCB5F1DDBB /* Pods-PXQuisiteDeveloper.debug.xcconfig */,
-				C9D21135151C088E1FECB7E6 /* Pods-PXQuisiteDeveloper.release.xcconfig */,
-			);
-			name = "Pods-PXQuisiteDeveloper";
-			path = "Target Support Files/Pods-PXQuisiteDeveloper";
-			sourceTree = "<group>";
-		};
-		388FC85278F19C3B6D74027C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BD24279C5181D17E8F09E484 /* PXQuisiteExtensions */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		486AC1CA54405BB57C347D60 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F12686E938F5F18894E19E2B /* PXQuisiteDeveloper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		48E6CD827BA1B7CE76DBD6DF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6D5D3DD589D7342A581EE449 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		49AB86F89BF3B977D43A46F6 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5ED512D7B929E57E51A92E1A /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		59424DCA27D23EEE57F59423 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DE0EBC3B252BB3E9924BB985 /* PXQuisiteDeveloper.bundle */,
-				6DF1D27841C7D09869482D84 /* PXQuisiteDeveloper.bundle */,
-				C2B3960E2914BAE412431ED0 /* PXQuisiteExtensions.bundle */,
-				BF9EEEF46B6F71A21E48185D /* PXQuisiteExtensions.bundle */,
-				B651E363B107F00E09A81C24 /* libPods-PXQuisiteDeveloper.a */,
-				3A0EEEF650E858F9D6AC805C /* libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a */,
-				599873725E1837724E4088B9 /* libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a */,
-				40D4A9683C56BA22F4C63F73 /* libPods-Tests.a */,
-				59FEB58CA4E5CABD41686A3C /* libPods-Tests-PXQuisiteDeveloper.a */,
-				84B64B8B3F96EA5B3B62686E /* libPods-Tests-PXQuisiteExtensions.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6D5D3DD589D7342A581EE449 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7AAB322F4518C84A975A79D4 /* URSArrayPreviewController.h */,
-				A6A56D0CCC1C9129EC97D3A2 /* URSArrayPreviewController.m */,
+				BB130CACE6A2B5E15D0ECB80 /* NSBundle+PXQuisiteDeveloper.h */,
+				4B6C53180B84A64542962A71 /* NSBundle+PXQuisiteDeveloper.m */,
+				0BA4428296EFED955B255C9C /* PXQArrayPreviewController.h */,
+				8CADEA06E32E874409B9F0A5 /* PXQArrayPreviewController.m */,
+				E10193FF62D8E24317BC4E4C /* PXQIndexedObjectPreviewCell.h */,
+				CD36846D18FEAD9A7DAE3A55 /* PXQIndexedObjectPreviewCell.m */,
+				BA730F13D3042E884FEF2635 /* PXQuisiteDeveloper.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		71CE9B58E8370031B5E7A91B /* Resources */ = {
+		1C65A6DC466CA32FC111BBCC /* PXQuisiteDeveloper */ = {
 			isa = PBXGroup;
 			children = (
-				FE6AC3DA766ACEF0CAC36A7A /* Pod */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		814CDD9A62E2BDA2D733DE67 /* Pods-Tests */ = {
-			isa = PBXGroup;
-			children = (
-				455D9191048D3022151AA146 /* Pods-Tests-acknowledgements.markdown */,
-				D7A4E0296E9F3CD076438BB2 /* Pods-Tests-acknowledgements.plist */,
-				B888195BB8ABA033FE834867 /* Pods-Tests-dummy.m */,
-				D53CB348BC84B2EFAC1471C9 /* Pods-Tests-environment.h */,
-				72F386A85C40BE28D3E95FC5 /* Pods-Tests-resources.sh */,
-				E8F87B42FB83018C9FE07A8E /* Pods-Tests.debug.xcconfig */,
-				0EE19368FEEE29A947A16366 /* Pods-Tests.release.xcconfig */,
-			);
-			name = "Pods-Tests";
-			path = "Target Support Files/Pods-Tests";
-			sourceTree = "<group>";
-		};
-		BD24279C5181D17E8F09E484 /* PXQuisiteExtensions */ = {
-			isa = PBXGroup;
-			children = (
-				89530897C9A104778B70D815 /* NSArray+PXQuisite.h */,
-				B3915E5FE89A5DDF9F796417 /* NSArray+PXQuisite.m */,
-				F6BBF1FC26F9671E1574A0C0 /* NSBundle+PXQuisite.h */,
-				11E42C5800BC982364695DCF /* NSBundle+PXQuisite.m */,
-				D9742EDFC04FE7B0F33462C9 /* NSDate+PXQuisite.h */,
-				41A99AC76494B7288BB7CF82 /* NSDate+PXQuisite.m */,
-				B70112C4C2F29D393D30D298 /* NSDateFormatter+PXQuisite.h */,
-				9F72B58A4A79E77761229672 /* NSDateFormatter+PXQuisite.m */,
-				2CC4E7B3C8154FD6963793F4 /* NSDictionary+PXQuisite.h */,
-				A54251A549AD7BD8F5159AAC /* NSDictionary+PXQuisite.m */,
-				7C9472BAF2D6FD0B0D701130 /* NSError+PXQuisite.h */,
-				72A3983680E588B0E23A5E09 /* NSError+PXQuisite.m */,
-				407719820E026B1810EFE9FA /* NSException+PXQuisite.h */,
-				D8D5AB3574AD8EA528C0153E /* NSException+PXQuisite.m */,
-				1A5E89AB6C4FC30247668ADB /* NSMutableArray+PXQuisite.h */,
-				638797233AD11088E1D3B015 /* NSMutableArray+PXQuisite.m */,
-				A3F86061CE763F92CA9FFAC0 /* NSMutableDictionary+PXQuisite.h */,
-				312A520B4ED13036D2423A20 /* NSMutableDictionary+PXQuisite.m */,
-				FFA29E14149E156050F85DCB /* NSObject+PXQuisite.h */,
-				4DCDA37EE5F31503CDF39437 /* NSObject+PXQuisite.m */,
-				7B455B8381D90EAC2C5F499A /* NSString+PXQuisite.h */,
-				498928DB21A5A1CDDD88C199 /* NSString+PXQuisite.m */,
-				771544010C80A74A5F08BC74 /* NSURL+PXQuisite.h */,
-				AB6B04D0CD32E392909FDD64 /* NSURL+PXQuisite.m */,
-				8CE1C5197EDD8E3F76A6C278 /* PXQuisiteExtensions.h */,
-				CEFF832E038A722DBF9A6C64 /* UIApplication+PXQuisite.h */,
-				F321AC17B775BA5F3330F537 /* UIApplication+PXQuisite.m */,
-				4A55F65DDD2186935F138166 /* UIDevice+PXQuisite.h */,
-				CA993A9D6E0F394647678F58 /* UIDevice+PXQuisite.m */,
-				0FC6067175B46ACDD1EF90CF /* UIScreen+PXQuisite.h */,
-				0088E7D6A34A84F42DD75AD4 /* UIScreen+PXQuisite.m */,
-				4EBD61078B5B004344CE6A82 /* UIScreenMode+PXQuisite.h */,
-				E11F155258139F9677359741 /* UIScreenMode+PXQuisite.m */,
-				04EDF5074827C9E4C3824045 /* UIView+PXQuisite.h */,
-				06D1D4A0072B74F01193CDF4 /* UIView+PXQuisite.m */,
-				CE1D43BF817D2CF62D40D1D6 /* Support Files */,
-			);
-			path = PXQuisiteExtensions;
-			sourceTree = "<group>";
-		};
-		CB66453C2F43E819E9190962 = {
-			isa = PBXGroup;
-			children = (
-				AEB81057F619A3404134B4C6 /* Podfile */,
-				486AC1CA54405BB57C347D60 /* Development Pods */,
-				FAA9BEA80C4BA03EEEF2E276 /* Frameworks */,
-				388FC85278F19C3B6D74027C /* Pods */,
-				59424DCA27D23EEE57F59423 /* Products */,
-				E1AF81CCD5AADE1F45F4E214 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		CE1D43BF817D2CF62D40D1D6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CD6139FA6FE9FA0AA0A5FD85 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions.xcconfig */,
-				C1745FBF15DA8CF69E8BF074 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */,
-				B856168A1D90308A0D40AB15 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m */,
-				2ADC4E612375B2A87AAE7821 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch */,
-				D4CA91CB43D8BCD520480203 /* Pods-Tests-PXQuisiteExtensions.xcconfig */,
-				2EEE9B3D8ABFC0D32D44E78C /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */,
-				2057B69E4CFB7EEF97C2A6E5 /* Pods-Tests-PXQuisiteExtensions-dummy.m */,
-				757F5C134FD7ED3BF21F0DD1 /* Pods-Tests-PXQuisiteExtensions-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
-			sourceTree = "<group>";
-		};
-		DA3B50CC2BBCE1F25C19C691 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				764CA7D5A57E2522A6DD5E22 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper.xcconfig */,
-				EE2AB9007CE24A6140122500 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */,
-				9DC79204E77AF043EDAEF3CE /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m */,
-				735F272721FEEBCB6BD4DAA7 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch */,
-				CE83E594D14BE5479E55B43F /* Pods-Tests-PXQuisiteDeveloper.xcconfig */,
-				229DE66DA557FCAAD00A223A /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */,
-				8229B62372A023406244459E /* Pods-Tests-PXQuisiteDeveloper-dummy.m */,
-				345793B85314B25FFBB3DFAC /* Pods-Tests-PXQuisiteDeveloper-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			sourceTree = "<group>";
-		};
-		E1AF81CCD5AADE1F45F4E214 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1AC8507BF6610FE924A0F6ED /* Pods-PXQuisiteDeveloper */,
-				814CDD9A62E2BDA2D733DE67 /* Pods-Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		F12686E938F5F18894E19E2B /* PXQuisiteDeveloper */ = {
-			isa = PBXGroup;
-			children = (
-				48E6CD827BA1B7CE76DBD6DF /* Pod */,
-				71CE9B58E8370031B5E7A91B /* Resources */,
-				DA3B50CC2BBCE1F25C19C691 /* Support Files */,
+				741DA4E2C8B3DF0C6E0357D5 /* Pod */,
+				B1A72DC9BACC7C6443A0A7C3 /* Resources */,
+				CA59503A6EA2729DE6AF9FB3 /* Support Files */,
 			);
 			name = PXQuisiteDeveloper;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FAA9BEA80C4BA03EEEF2E276 /* Frameworks */ = {
+		31016D248A3ED2FF2DACFC84 /* PXQuisiteExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				49AB86F89BF3B977D43A46F6 /* iOS */,
+				708E924771F722175543ECF2 /* NSArray+PXQuisite.h */,
+				4D8E50B89A59D34524442CF5 /* NSArray+PXQuisite.m */,
+				25F38C7748BD2AD2A255BFF2 /* NSBundle+PXQuisite.h */,
+				FDF10061EEF0B8C2E136B7B8 /* NSBundle+PXQuisite.m */,
+				7220EF8CA58556795BF266BC /* NSDate+PXQuisite.h */,
+				E268149B6E97FE83DD97FC36 /* NSDate+PXQuisite.m */,
+				4E15A99B6B0D9E7AA9AF3559 /* NSDateFormatter+PXQuisite.h */,
+				4DF89EC8D1CA5B84970EE922 /* NSDateFormatter+PXQuisite.m */,
+				24BE883AEBD9695745DBA4EA /* NSDictionary+PXQuisite.h */,
+				7FD0C239BD892A2CE35855B8 /* NSDictionary+PXQuisite.m */,
+				6A5F2692B5A66D1724D1F42C /* NSError+PXQuisite.h */,
+				FED0B5A52C8EF912137977B0 /* NSError+PXQuisite.m */,
+				E923EBBB602CB26D2812A7EE /* NSException+PXQuisite.h */,
+				ED8DB7DC7367692873DF4A2F /* NSException+PXQuisite.m */,
+				7A258BC454EA518A40594167 /* NSMutableArray+PXQuisite.h */,
+				74D39AFA6900EEDFBC6AFF2F /* NSMutableArray+PXQuisite.m */,
+				E61FA8630C413CCD192DECD4 /* NSMutableDictionary+PXQuisite.h */,
+				2B704781D473E24FE2F242FE /* NSMutableDictionary+PXQuisite.m */,
+				DAD67DC7E30FED77C70FC401 /* NSObject+PXQuisite.h */,
+				DAF3038B9667DFFF4C9C89DA /* NSObject+PXQuisite.m */,
+				4B6A95F9632B07BA1AD9EE85 /* NSString+PXQuisite.h */,
+				3BB375447F41CE2E04A74231 /* NSString+PXQuisite.m */,
+				7BDB3DFC2EF0CE1734F9452B /* NSURL+PXQuisite.h */,
+				E6EC68F5535CD6E05B5E0EF3 /* NSURL+PXQuisite.m */,
+				6EE3E48D5C5722BE406779F6 /* PXQuisiteExtensions.h */,
+				74BC9B9BBA95784D1B536A69 /* UIApplication+PXQuisite.h */,
+				5DF8A23992B509F8E46F26F5 /* UIApplication+PXQuisite.m */,
+				20023E5658EF22591419198E /* UIDevice+PXQuisite.h */,
+				8271F7B8C1FD737DE61D0F5C /* UIDevice+PXQuisite.m */,
+				F41B7BF862F0EE14AC4AE487 /* UIScreen+PXQuisite.h */,
+				EF51089D7A9667B8A79BC023 /* UIScreen+PXQuisite.m */,
+				C2CE93A0F901268A00353120 /* UIScreenMode+PXQuisite.h */,
+				A2C24A852896F1040C6ABE43 /* UIScreenMode+PXQuisite.m */,
+				CB7FA3F9F843F8F58DEBBC0F /* UIView+PXQuisite.h */,
+				EFD7105B25AA8814B74C92AD /* UIView+PXQuisite.m */,
+				F4DC383ECAE8BA75E931F7BA /* Support Files */,
 			);
-			name = Frameworks;
+			path = PXQuisiteExtensions;
 			sourceTree = "<group>";
 		};
-		FE6AC3DA766ACEF0CAC36A7A /* Pod */ = {
+		35C0B01EF01B520BBB63EBBA /* Pods-Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FFF75A3C25D1AFC5C2002E5E /* Assets */,
+				087A873FE403E3050C830F5F /* Pods-Tests-acknowledgements.markdown */,
+				C2851045410C5697C3173F86 /* Pods-Tests-acknowledgements.plist */,
+				1B4ECA6398B82415F5B62928 /* Pods-Tests-dummy.m */,
+				41FC98E428D99CFEE20FECF0 /* Pods-Tests-environment.h */,
+				BB58B0FB15EAC513BB3C4799 /* Pods-Tests-resources.sh */,
+				CEE1CB42567E86C110F102A6 /* Pods-Tests.debug.xcconfig */,
+				FD9E7ACFD4A43520835D1046 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		38682509B4412106F84FEF4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31016D248A3ED2FF2DACFC84 /* PXQuisiteExtensions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B58B1FE0D329CD24A91EB7D = {
+			isa = PBXGroup;
+			children = (
+				8A4DA46BDD4B24B406144EB2 /* Podfile */,
+				71D552824B4FFC07EEC97134 /* Development Pods */,
+				D0F04C490976D2EAB11DBBBF /* Frameworks */,
+				38682509B4412106F84FEF4D /* Pods */,
+				E3166324692680E914947E04 /* Products */,
+				C8C79F151DD95A0F1AB5F432 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		71D552824B4FFC07EEC97134 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6DC466CA32FC111BBCC /* PXQuisiteDeveloper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		741DA4E2C8B3DF0C6E0357D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1AA761BEECFEE4D7F3D40B53 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		FFF75A3C25D1AFC5C2002E5E /* Assets */ = {
+		B1A72DC9BACC7C6443A0A7C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F08696691B8FFB01B8A795E9 /* URSArrayPreviewController.xib */,
+				DF7B887510E59F452633C22C /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B4912E24C8B6D35F9524DF66 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				58017B7548BAAEB6234FCBBD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BCE7F63002291DD197B9B767 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				03EE786F3A7B713DFD24AD58 /* PXQArrayPreviewController.xib */,
+				DF05FBA422A83B8591BE3073 /* PXQIndexedObjectPreviewCell.xib */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		C8C79F151DD95A0F1AB5F432 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF14A4C775911C55B6996DC8 /* Pods-PXQuisiteDeveloper */,
+				35C0B01EF01B520BBB63EBBA /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CA59503A6EA2729DE6AF9FB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5329EB9ED34F96D4435DD8A7 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper.xcconfig */,
+				BDDEC6705BB1F29E19963DB6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */,
+				16322D12A37473F79F8B88F6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m */,
+				0570CD4097E3C30A91F49B0A /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch */,
+				5AA23FE06108BEC574F86F52 /* Pods-Tests-PXQuisiteDeveloper.xcconfig */,
+				7EEB6AB39EE970AD3C3FCEB0 /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */,
+				064F77AEF68A94111E6188D4 /* Pods-Tests-PXQuisiteDeveloper-dummy.m */,
+				883E995430733DDAEBD6C200 /* Pods-Tests-PXQuisiteDeveloper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			sourceTree = "<group>";
+		};
+		CF14A4C775911C55B6996DC8 /* Pods-PXQuisiteDeveloper */ = {
+			isa = PBXGroup;
+			children = (
+				86F392B4AEA8D34ADF3DF3FF /* Pods-PXQuisiteDeveloper-acknowledgements.markdown */,
+				54DD776DA4D9D9FF08BEC0E8 /* Pods-PXQuisiteDeveloper-acknowledgements.plist */,
+				B3835F9492A85A8758868FAB /* Pods-PXQuisiteDeveloper-dummy.m */,
+				AE2D8EAA83AE56040040D914 /* Pods-PXQuisiteDeveloper-environment.h */,
+				2AE62093E4B04166D8EFC740 /* Pods-PXQuisiteDeveloper-resources.sh */,
+				2234313A35C16067CE57FD25 /* Pods-PXQuisiteDeveloper.debug.xcconfig */,
+				97DB78AA60882A30B3B2A112 /* Pods-PXQuisiteDeveloper.release.xcconfig */,
+			);
+			name = "Pods-PXQuisiteDeveloper";
+			path = "Target Support Files/Pods-PXQuisiteDeveloper";
+			sourceTree = "<group>";
+		};
+		D0F04C490976D2EAB11DBBBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4912E24C8B6D35F9524DF66 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7B887510E59F452633C22C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BCE7F63002291DD197B9B767 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E3166324692680E914947E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD759F97DAE6232D7A6A2A33 /* PXQuisiteDeveloper.bundle */,
+				345885C4DE66B8EF13C43BF2 /* PXQuisiteDeveloper.bundle */,
+				EA62B82983D916AD5FAC074C /* PXQuisiteExtensions.bundle */,
+				ADDFFC568BB5B70F577A76E1 /* PXQuisiteExtensions.bundle */,
+				4F13FBF2E78628694AF00DE0 /* libPods-PXQuisiteDeveloper.a */,
+				B5DD721E0E4E1C2FB0743AAD /* libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a */,
+				832688E573F560C787F2A260 /* libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a */,
+				1FDCB7DEC5F8C3B839C2AC75 /* libPods-Tests.a */,
+				ADDC69670C2CE57772BDAD2C /* libPods-Tests-PXQuisiteDeveloper.a */,
+				1CC597972AC3BBFD8CB00EA3 /* libPods-Tests-PXQuisiteExtensions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DC383ECAE8BA75E931F7BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC8AEBBF4F19BE35E5337C0 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions.xcconfig */,
+				4ED5B9C3AC3A836FD19482DC /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */,
+				A60FD14B3464FD57F7476A5C /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m */,
+				4DF582623A83BF6897586213 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch */,
+				2713063326609E31CBC81090 /* Pods-Tests-PXQuisiteExtensions.xcconfig */,
+				75ED5CE56151D99F4F796475 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */,
+				5A468754AA915C4CF4FA49E2 /* Pods-Tests-PXQuisiteExtensions-dummy.m */,
+				BA46002FA017AF6F14AC9F8E /* Pods-Tests-PXQuisiteExtensions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2EAC29D881B282008585BE07 /* Headers */ = {
+		450BFB24085B68B90A025A95 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8B731929AC0A8C0EC7FA7E /* URSArrayPreviewController.h in Headers */,
+				5C119FC5740B2BF8802145F9 /* NSBundle+PXQuisiteDeveloper.h in Headers */,
+				849CEA7FB1BBDDACDA4BCF10 /* PXQArrayPreviewController.h in Headers */,
+				C23137168B75B8DD0BD92CB4 /* PXQIndexedObjectPreviewCell.h in Headers */,
+				F2E2AE2FAA002D003E44ED20 /* PXQuisiteDeveloper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4509B368E5507695BD719FE5 /* Headers */ = {
+		67F3A9659E86571A1E6084F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F635AFB7699CA84D2014E49 /* NSArray+PXQuisite.h in Headers */,
-				B2D1887EE100F032E8042565 /* NSBundle+PXQuisite.h in Headers */,
-				D296DDEE81BEB115E44208A2 /* NSDate+PXQuisite.h in Headers */,
-				706CD1928AE09100CDA89254 /* NSDateFormatter+PXQuisite.h in Headers */,
-				B6E873C946840DC6969CCB34 /* NSDictionary+PXQuisite.h in Headers */,
-				F17BC101AE985D6BCA763D23 /* NSError+PXQuisite.h in Headers */,
-				224342F29EF7DFD7555388A6 /* NSException+PXQuisite.h in Headers */,
-				EF0AE4C600BC89C48111DCE7 /* NSMutableArray+PXQuisite.h in Headers */,
-				44791E3337AA30E30C4B1E64 /* NSMutableDictionary+PXQuisite.h in Headers */,
-				A894CBAEE60D13F9DEE4DC09 /* NSObject+PXQuisite.h in Headers */,
-				C7F610D29A276687A7DC76D2 /* NSString+PXQuisite.h in Headers */,
-				BEC7B832AA8FE54C28634117 /* NSURL+PXQuisite.h in Headers */,
-				E38C2900809BAF09F6CA99CE /* PXQuisiteExtensions.h in Headers */,
-				64A635DC4B82D17DC4F9AF1D /* UIApplication+PXQuisite.h in Headers */,
-				7600C817FC38AA47C3EDAB64 /* UIDevice+PXQuisite.h in Headers */,
-				E4E2687F698B72AD1E74B9CB /* UIScreen+PXQuisite.h in Headers */,
-				A062BCAD1F0395A0197DEE2D /* UIScreenMode+PXQuisite.h in Headers */,
-				70495ED4167613EC1B51356D /* UIView+PXQuisite.h in Headers */,
+				B4A98791991571A9F05984C1 /* NSArray+PXQuisite.h in Headers */,
+				B72F93EF68A2952164ECADBD /* NSBundle+PXQuisite.h in Headers */,
+				0279CDF40BC3C29100C9C990 /* NSDate+PXQuisite.h in Headers */,
+				BB58679F9E7211CB6B0FCEE1 /* NSDateFormatter+PXQuisite.h in Headers */,
+				B52BB40394C12BC827DA86BE /* NSDictionary+PXQuisite.h in Headers */,
+				0D2CAE94E96C8F2BD5DBDCBF /* NSError+PXQuisite.h in Headers */,
+				B55318BFBD10B7FAFD306DFF /* NSException+PXQuisite.h in Headers */,
+				50691CE65F068EBE8A9CB413 /* NSMutableArray+PXQuisite.h in Headers */,
+				69977B545EBFA5ABD3C7DBCF /* NSMutableDictionary+PXQuisite.h in Headers */,
+				74E06D769D1F313CF1542056 /* NSObject+PXQuisite.h in Headers */,
+				D80BCBE6C332AD39DEF20FE1 /* NSString+PXQuisite.h in Headers */,
+				9FD0A7B8ACE811C8DB88E412 /* NSURL+PXQuisite.h in Headers */,
+				3DA6B3A83CDD522744D97282 /* PXQuisiteExtensions.h in Headers */,
+				5E9763563C1C2A285CF53CA5 /* UIApplication+PXQuisite.h in Headers */,
+				FFB7F70CBF91B3CBDE4C0DA2 /* UIDevice+PXQuisite.h in Headers */,
+				26081C98A5703D71E0157E1F /* UIScreen+PXQuisite.h in Headers */,
+				F3DF6C4E4C31C4C17297F953 /* UIScreenMode+PXQuisite.h in Headers */,
+				99A1AB87FF6DE9E02D21E4FC /* UIView+PXQuisite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C08CC0BA44C7303308FECAA /* Headers */ = {
+		B85D6A4A141441E978DC7BED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFDC2E8A709329849CD5D3F4 /* NSArray+PXQuisite.h in Headers */,
-				7A9EAA1B61F14C6B57FB3F1F /* NSBundle+PXQuisite.h in Headers */,
-				9ACFA91CF9C1C36334713AC0 /* NSDate+PXQuisite.h in Headers */,
-				2437ED6B3C9DE44A9F5F4115 /* NSDateFormatter+PXQuisite.h in Headers */,
-				644C63A78E2AD5CEE754D97F /* NSDictionary+PXQuisite.h in Headers */,
-				91B31988DB5B57EAF34A4773 /* NSError+PXQuisite.h in Headers */,
-				3C44E924FE31B76749BD5AA4 /* NSException+PXQuisite.h in Headers */,
-				C9708FFB77444ACB9357E1A8 /* NSMutableArray+PXQuisite.h in Headers */,
-				44A3AACA999B305603FEFAC3 /* NSMutableDictionary+PXQuisite.h in Headers */,
-				6F24022FCB6F7886C0ECC71A /* NSObject+PXQuisite.h in Headers */,
-				960A1554A2B2611D72C4FB7B /* NSString+PXQuisite.h in Headers */,
-				CC52CACCFDBD1A707D5A46DB /* NSURL+PXQuisite.h in Headers */,
-				E822224FAC35B587F1D2959D /* PXQuisiteExtensions.h in Headers */,
-				24AB11ABA2FF1409DE9C540F /* UIApplication+PXQuisite.h in Headers */,
-				462686DF473E0FFB2C31EADF /* UIDevice+PXQuisite.h in Headers */,
-				5CE09EF230DB324709CEE2A5 /* UIScreen+PXQuisite.h in Headers */,
-				A615C4EB12535C7BF629C221 /* UIScreenMode+PXQuisite.h in Headers */,
-				B312A2C14002B33A1B715DB8 /* UIView+PXQuisite.h in Headers */,
+				5121698904B55193A95A965E /* NSBundle+PXQuisiteDeveloper.h in Headers */,
+				8DE5F74E2AA9F0786D1347F4 /* PXQArrayPreviewController.h in Headers */,
+				A92750ED5F48B9E9C4CDB4C4 /* PXQIndexedObjectPreviewCell.h in Headers */,
+				3FC8A9D2565C42C571289C55 /* PXQuisiteDeveloper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C568787830E61EBD86E128C /* Headers */ = {
+		FB4EA149CCBFBB2793221499 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F6BA16913A5A164C6B81B73 /* URSArrayPreviewController.h in Headers */,
+				D329012B843DD0E80396390B /* NSArray+PXQuisite.h in Headers */,
+				1993B7E3C609870403716B65 /* NSBundle+PXQuisite.h in Headers */,
+				68EAD634C76CB9AAA5438E16 /* NSDate+PXQuisite.h in Headers */,
+				97F89199D7C0A4410570EA63 /* NSDateFormatter+PXQuisite.h in Headers */,
+				078AAFDACC46A8EDC3CF832C /* NSDictionary+PXQuisite.h in Headers */,
+				879F74AD88E1045C38E8D75B /* NSError+PXQuisite.h in Headers */,
+				0713DAA07DBD4FADCE4E370B /* NSException+PXQuisite.h in Headers */,
+				84BC0C6276B58D93B60A608B /* NSMutableArray+PXQuisite.h in Headers */,
+				E4C10E4CEA35E1065EFF3054 /* NSMutableDictionary+PXQuisite.h in Headers */,
+				9CE63A4CA4DC5DF530F76FE7 /* NSObject+PXQuisite.h in Headers */,
+				3F806F801704981F44AC6B07 /* NSString+PXQuisite.h in Headers */,
+				9ABCF169AF1A395B73DE674A /* NSURL+PXQuisite.h in Headers */,
+				DD104AED6B56FD0DDBB5A8D9 /* PXQuisiteExtensions.h in Headers */,
+				AFE11A7D4CC5DC16DE85DF07 /* UIApplication+PXQuisite.h in Headers */,
+				4A9835CFE5B075063BBA8A7E /* UIDevice+PXQuisite.h in Headers */,
+				E403A2D441C2C3E60E0F4A22 /* UIScreen+PXQuisite.h in Headers */,
+				3F9E61FE3E6E13F7B9154D88 /* UIScreenMode+PXQuisite.h in Headers */,
+				277AA2E824328755DC90C5D0 /* UIView+PXQuisite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		000138BAA7B306563984E5B9 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions */ = {
+		09012A378A8299AC456265FF /* Pods-PXQuisiteDeveloper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 509A616E7AC0B32D46A7E745 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions" */;
+			buildConfigurationList = 813D2CDB6362BF52076F7548 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper" */;
 			buildPhases = (
-				4CD04E75AB04C67D55AB1892 /* Sources */,
-				EC29846F0E7B77A45127033C /* Frameworks */,
-				DA1117C564AFE0990582D438 /* Resources */,
+				781DB22FF95618FF51B4675C /* Sources */,
+				F6B3A8E8D6DCD81EE8BFED5D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
-			productName = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
-			productReference = BF9EEEF46B6F71A21E48185D /* PXQuisiteExtensions.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		0C15ACD1CE5B217273A06E66 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8D1D7EBEE1E045FB43F427AA /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions" */;
-			buildPhases = (
-				58EB2E4AF9EB34A8CB1272AF /* Sources */,
-				C038022408B8E736DE5810A8 /* Frameworks */,
-				4509B368E5507695BD719FE5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F46D7C1DFA4C83D7F2BB2D6F /* PBXTargetDependency */,
-			);
-			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
-			productName = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
-			productReference = 599873725E1837724E4088B9 /* libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		1100E322769F88737B314A07 /* Pods-PXQuisiteDeveloper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4063F58742185B4BABCEAD00 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper" */;
-			buildPhases = (
-				08A97532FFC66C56222A0A51 /* Sources */,
-				C2691953FADF315FE0EABCA8 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18FEC4E59075A202DA0B3708 /* PBXTargetDependency */,
-				85FB335344E0E6AFA90238E7 /* PBXTargetDependency */,
+				34C093E8811224E3B6F439D6 /* PBXTargetDependency */,
+				4D612003156D3C8E034519F6 /* PBXTargetDependency */,
 			);
 			name = "Pods-PXQuisiteDeveloper";
 			productName = "Pods-PXQuisiteDeveloper";
-			productReference = B651E363B107F00E09A81C24 /* libPods-PXQuisiteDeveloper.a */;
+			productReference = 4F13FBF2E78628694AF00DE0 /* libPods-PXQuisiteDeveloper.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		25A08774CF8C9BC0095EC70E /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */ = {
+		1405FAD0A71CB3F6DD3C9E02 /* Pods-Tests-PXQuisiteDeveloper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 163F98FF4BAF7BD9053FA8DF /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions" */;
+			buildConfigurationList = 5BE1F024B9D091E236358815 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper" */;
 			buildPhases = (
-				2A7EF8878B94E565CEAB23E9 /* Sources */,
-				D1C38C0454E0C8754642C581 /* Frameworks */,
-				CC1E1E2C337989830150E513 /* Resources */,
+				23B6EB91E3CA77E281AC988C /* Sources */,
+				DC818C63E7F23123E38982A4 /* Frameworks */,
+				450BFB24085B68B90A025A95 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
-			productName = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
-			productReference = C2B3960E2914BAE412431ED0 /* PXQuisiteExtensions.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		78691A16895F84447540B866 /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA94411C02653FC4FD7B035E /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				D6AC2EFB2BFE6158782E9561 /* Sources */,
-				FE123CF73ABC617F7AE612FC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6A93C18B893608C3ED265581 /* PBXTargetDependency */,
-				06C9C0C8053ABC52444BEA97 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 40D4A9683C56BA22F4C63F73 /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		88F6C19C3D1F0ECF108C4E04 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58CFFF798AC0CD99B8D592CB /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper" */;
-			buildPhases = (
-				EBBDCAC7CA54B2E55904A6A0 /* Sources */,
-				D2FCF106AFB0B546D5A6058F /* Frameworks */,
-				24D0317DC94CFF10ED2B5C49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			productName = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			productReference = 6DF1D27841C7D09869482D84 /* PXQuisiteDeveloper.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		96F2D3C9F4793DFFCDDB5367 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8BD033CD23BDFAFE69B14551 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper" */;
-			buildPhases = (
-				C4CC8A3361D4DF840C18DBE9 /* Sources */,
-				23D9C28E578A74B2E30F39C4 /* Frameworks */,
-				2EAC29D881B282008585BE07 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3E9465D56C31735B678819F2 /* PBXTargetDependency */,
-				7EED28F46BAF5D16B494E7F7 /* PBXTargetDependency */,
-			);
-			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			productName = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			productReference = 3A0EEEF650E858F9D6AC805C /* libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A7AD35186EB42739056D6C15 /* Pods-Tests-PXQuisiteDeveloper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 351CC9F0FA0B3E10D20D7D1E /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper" */;
-			buildPhases = (
-				E034387740026D42CCB39EF3 /* Sources */,
-				925ED80CD0AEFCC2B778C878 /* Frameworks */,
-				7C568787830E61EBD86E128C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E56DA74CB0E001F1FDBF976 /* PBXTargetDependency */,
-				EA8341FF8ECA697F36FEEC38 /* PBXTargetDependency */,
+				EDF35BFC54B670A9F1FFB1D6 /* PBXTargetDependency */,
+				6B4A2F6AD8A5AE1A4CEB2815 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests-PXQuisiteDeveloper";
 			productName = "Pods-Tests-PXQuisiteDeveloper";
-			productReference = 59FEB58CA4E5CABD41686A3C /* libPods-Tests-PXQuisiteDeveloper.a */;
+			productReference = ADDC69670C2CE57772BDAD2C /* libPods-Tests-PXQuisiteDeveloper.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C8C806EB7C05A83D88638EED /* Pods-Tests-PXQuisiteExtensions */ = {
+		1807473CE7B7E5F5B40509FF /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4106A78BC82A5F038C801944 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions" */;
+			buildConfigurationList = 1F537C847FF07C135B67AAD5 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper" */;
 			buildPhases = (
-				4FCB73C936328513EB9DB986 /* Sources */,
-				4403FBAE701B054D6D809B88 /* Frameworks */,
-				4C08CC0BA44C7303308FECAA /* Headers */,
+				7A5D70BA0148A54D9A52BBCE /* Sources */,
+				7A7478DE401B3A0FAB9F8DA5 /* Frameworks */,
+				B85D6A4A141441E978DC7BED /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				536FC0C59740FC5D18448C8F /* PBXTargetDependency */,
+				FBF5424CE0369871F28B2A8C /* PBXTargetDependency */,
+				021A1DFE31A3A48868EB6E9B /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-PXQuisiteExtensions";
-			productName = "Pods-Tests-PXQuisiteExtensions";
-			productReference = 84B64B8B3F96EA5B3B62686E /* libPods-Tests-PXQuisiteExtensions.a */;
+			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			productName = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			productReference = B5DD721E0E4E1C2FB0743AAD /* libPods-PXQuisiteDeveloper-PXQuisiteDeveloper.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DF8F2549480935705AAF20FE /* Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper */ = {
+		1F6587D7A6BA3EC25C0EF5B1 /* Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B4216D9077973B8ACC91D8EA /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper" */;
+			buildConfigurationList = FAE14BA5E4EFDEB9033CE91D /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper" */;
 			buildPhases = (
-				FA0475CD6EF399F75A7BECCD /* Sources */,
-				AE76E6177A44548857E78778 /* Frameworks */,
-				627AE85B0F7C7CF09721BE87 /* Resources */,
+				C378CCB367688E574DF40EAF /* Sources */,
+				D6A7A471A5D18CC3D1101242 /* Frameworks */,
+				7664392D1000ECA7994CB65A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -807,382 +732,369 @@
 			);
 			name = "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper";
 			productName = "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			productReference = DE0EBC3B252BB3E9924BB985 /* PXQuisiteDeveloper.bundle */;
+			productReference = AD759F97DAE6232D7A6A2A33 /* PXQuisiteDeveloper.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3AA2A16BA91B6406565F9898 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA46615632BE473D4F9A0AF7 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				856EA0D58B7373E398CC4E8D /* Sources */,
+				0F99E8C68952A1ED6950673A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DBDE2FB1BA2BFABE6826E8 /* PBXTargetDependency */,
+				B7D2EFDB0358F278E61E861D /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 1FDCB7DEC5F8C3B839C2AC75 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		59A03F202C24DBF9B5B7BD5C /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7164828B323407738359ADFA /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions" */;
+			buildPhases = (
+				2050E20EEED1A482771CD81F /* Sources */,
+				FD2C4B847FB8C170B7FBA6E5 /* Frameworks */,
+				3C631AD2B620285520E6EAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
+			productName = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
+			productReference = ADDFFC568BB5B70F577A76E1 /* PXQuisiteExtensions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		690136742C43F4F302E8FF05 /* Pods-Tests-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11305DFEED607C115287A4E /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions" */;
+			buildPhases = (
+				56E5F649B4D3E0CEE4D758E1 /* Sources */,
+				C7245E4894FE398A91FE80D7 /* Frameworks */,
+				FB4EA149CCBFBB2793221499 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664D6D7D3268491BE21C507E /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-PXQuisiteExtensions";
+			productName = "Pods-Tests-PXQuisiteExtensions";
+			productReference = 1CC597972AC3BBFD8CB00EA3 /* libPods-Tests-PXQuisiteExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		79FBC6722A950A4DFE348667 /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2288AF61F8E2BCAEB106E11A /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions" */;
+			buildPhases = (
+				1AD1625A70F3F6664D05A48E /* Sources */,
+				1119A9819535F8AD539FF157 /* Frameworks */,
+				74421AE356C1B6E343934F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+			productName = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+			productReference = EA62B82983D916AD5FAC074C /* PXQuisiteExtensions.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8DA900FFE4E59D51A1A6AA2E /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F84185BC407F3A2B761E715 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions" */;
+			buildPhases = (
+				D55575F4B2B822A9EB8034D2 /* Sources */,
+				55C7519B73BF8E0A9BD0E462 /* Frameworks */,
+				67F3A9659E86571A1E6084F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F0364BA6F8E0714999D89E /* PBXTargetDependency */,
+			);
+			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
+			productName = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
+			productReference = 832688E573F560C787F2A260 /* libPods-PXQuisiteDeveloper-PXQuisiteExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A283CA94998A32AF39BD68A8 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF3AE86B62A283C058E27A9 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper" */;
+			buildPhases = (
+				BB0820937ABD6A8329E83490 /* Sources */,
+				0BA68956B9682B0BEF544DE6 /* Frameworks */,
+				32B135BC0B2687FB63659260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			productName = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			productReference = 345885C4DE66B8EF13C43BF2 /* PXQuisiteDeveloper.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC89677FE8E00DE385855AF3 /* Project object */ = {
+		9BCF61E2247BF5C6536C8FB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 7BE3976893A56FB101D5BBBF /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = A64AA08CE4A71351578F2E80 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CB66453C2F43E819E9190962;
-			productRefGroup = 59424DCA27D23EEE57F59423 /* Products */;
+			mainGroup = 3B58B1FE0D329CD24A91EB7D;
+			productRefGroup = E3166324692680E914947E04 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1100E322769F88737B314A07 /* Pods-PXQuisiteDeveloper */,
-				96F2D3C9F4793DFFCDDB5367 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper */,
-				88F6C19C3D1F0ECF108C4E04 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper */,
-				0C15ACD1CE5B217273A06E66 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */,
-				000138BAA7B306563984E5B9 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions */,
-				78691A16895F84447540B866 /* Pods-Tests */,
-				A7AD35186EB42739056D6C15 /* Pods-Tests-PXQuisiteDeveloper */,
-				DF8F2549480935705AAF20FE /* Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper */,
-				C8C806EB7C05A83D88638EED /* Pods-Tests-PXQuisiteExtensions */,
-				25A08774CF8C9BC0095EC70E /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */,
+				09012A378A8299AC456265FF /* Pods-PXQuisiteDeveloper */,
+				1807473CE7B7E5F5B40509FF /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper */,
+				A283CA94998A32AF39BD68A8 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper */,
+				8DA900FFE4E59D51A1A6AA2E /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */,
+				59A03F202C24DBF9B5B7BD5C /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions */,
+				3AA2A16BA91B6406565F9898 /* Pods-Tests */,
+				1405FAD0A71CB3F6DD3C9E02 /* Pods-Tests-PXQuisiteDeveloper */,
+				1F6587D7A6BA3EC25C0EF5B1 /* Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper */,
+				690136742C43F4F302E8FF05 /* Pods-Tests-PXQuisiteExtensions */,
+				79FBC6722A950A4DFE348667 /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		24D0317DC94CFF10ED2B5C49 /* Resources */ = {
+		32B135BC0B2687FB63659260 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E86569B448F5D090957675 /* URSArrayPreviewController.xib in Resources */,
+				59ED4B1A940D0F30F990763D /* PXQArrayPreviewController.xib in Resources */,
+				7E18FF51858BD59F24CF4A83 /* PXQIndexedObjectPreviewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		627AE85B0F7C7CF09721BE87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFCC57656729C45C84A9252E /* URSArrayPreviewController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CC1E1E2C337989830150E513 /* Resources */ = {
+		3C631AD2B620285520E6EAC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA1117C564AFE0990582D438 /* Resources */ = {
+		74421AE356C1B6E343934F03 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7664392D1000ECA7994CB65A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C5B8B0B84598469D4B780B /* PXQArrayPreviewController.xib in Resources */,
+				853FAE854DB8383283C39D06 /* PXQIndexedObjectPreviewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08A97532FFC66C56222A0A51 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E3798254F265567E100C88F /* Pods-PXQuisiteDeveloper-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A7EF8878B94E565CEAB23E9 /* Sources */ = {
+		1AD1625A70F3F6664D05A48E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CD04E75AB04C67D55AB1892 /* Sources */ = {
+		2050E20EEED1A482771CD81F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FCB73C936328513EB9DB986 /* Sources */ = {
+		23B6EB91E3CA77E281AC988C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AD4CA3D77C8097769C98E70 /* NSArray+PXQuisite.m in Sources */,
-				D9744B211D55EF054DE1BC71 /* NSBundle+PXQuisite.m in Sources */,
-				A981F23380B215166891EA33 /* NSDate+PXQuisite.m in Sources */,
-				E503E0FAC1C8D1F68ED89E94 /* NSDateFormatter+PXQuisite.m in Sources */,
-				95E56E4A0A3414BE37A75836 /* NSDictionary+PXQuisite.m in Sources */,
-				D7CFF1A03C4A7473F164EA25 /* NSError+PXQuisite.m in Sources */,
-				4A133B00DE3A2EDFB97152EF /* NSException+PXQuisite.m in Sources */,
-				15A923E787EBDCF00708225B /* NSMutableArray+PXQuisite.m in Sources */,
-				439FCC220CF9707D0E8D8070 /* NSMutableDictionary+PXQuisite.m in Sources */,
-				01C8216F06C9530CAF0DBEB8 /* NSObject+PXQuisite.m in Sources */,
-				305A92D17610D7C1BF106684 /* NSString+PXQuisite.m in Sources */,
-				C435DC282B4276C382159D49 /* NSURL+PXQuisite.m in Sources */,
-				D1851D46F055A3B023A6723D /* Pods-Tests-PXQuisiteExtensions-dummy.m in Sources */,
-				41E156EF6E9DE7CA4C7F7B47 /* UIApplication+PXQuisite.m in Sources */,
-				5E91BB605F75202ADBEB78FA /* UIDevice+PXQuisite.m in Sources */,
-				EA64BFF2C047A44B5189F13E /* UIScreen+PXQuisite.m in Sources */,
-				94454B5675F2C57D2A63E711 /* UIScreenMode+PXQuisite.m in Sources */,
-				20330BE937B06BB76490D0C9 /* UIView+PXQuisite.m in Sources */,
+				6A81F30A1BE052F827EA7450 /* NSBundle+PXQuisiteDeveloper.m in Sources */,
+				096D65FFA787FF5EA1D8C81F /* PXQArrayPreviewController.m in Sources */,
+				0C5E362CA91DF3F337C5B9A0 /* PXQIndexedObjectPreviewCell.m in Sources */,
+				375DE7141A94891CA18CE579 /* Pods-Tests-PXQuisiteDeveloper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58EB2E4AF9EB34A8CB1272AF /* Sources */ = {
+		56E5F649B4D3E0CEE4D758E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3C3D28BE8B0852E55EFEEE /* NSArray+PXQuisite.m in Sources */,
-				C7FD221FD4CFFB2E754F33B4 /* NSBundle+PXQuisite.m in Sources */,
-				39ABC30B47CD64C7CBCE58B0 /* NSDate+PXQuisite.m in Sources */,
-				B3BDA8C5FBB30EB3ECDFEB3A /* NSDateFormatter+PXQuisite.m in Sources */,
-				51D79ED7050F865FD627182A /* NSDictionary+PXQuisite.m in Sources */,
-				845127B4F09DE9F09C9DBB54 /* NSError+PXQuisite.m in Sources */,
-				F5B3D58BD4F358F1E9798EF0 /* NSException+PXQuisite.m in Sources */,
-				042B4F32AB2C1470D468ED2B /* NSMutableArray+PXQuisite.m in Sources */,
-				25F99FDF1C157657AE60FCC1 /* NSMutableDictionary+PXQuisite.m in Sources */,
-				1EF7D32696700747C9950100 /* NSObject+PXQuisite.m in Sources */,
-				A22FE7B86E9DEA7605111CC0 /* NSString+PXQuisite.m in Sources */,
-				56A55BDF575C2ED4F95DD95C /* NSURL+PXQuisite.m in Sources */,
-				8B0B72E09EC934BEE23D8E43 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m in Sources */,
-				3563CFDD4E2EBACAD15D850B /* UIApplication+PXQuisite.m in Sources */,
-				1E2465B2A688331E43DAB47B /* UIDevice+PXQuisite.m in Sources */,
-				ED6CDA7803260F8E989AEB4F /* UIScreen+PXQuisite.m in Sources */,
-				93271B8F2BD101469366C4C6 /* UIScreenMode+PXQuisite.m in Sources */,
-				6D6E761C70C742B686A80B2F /* UIView+PXQuisite.m in Sources */,
+				88DCFA3D355F0817E29DE25F /* NSArray+PXQuisite.m in Sources */,
+				C3C38CC33568360688EF5817 /* NSBundle+PXQuisite.m in Sources */,
+				D53C12512EBB932D3888E696 /* NSDate+PXQuisite.m in Sources */,
+				0EF6E27F44EA38209071053F /* NSDateFormatter+PXQuisite.m in Sources */,
+				ACCECC0F416FCBC85C803B7D /* NSDictionary+PXQuisite.m in Sources */,
+				1F6E8279A8DBFB76CCF12BF8 /* NSError+PXQuisite.m in Sources */,
+				A6C0923B700DB75AADF6966F /* NSException+PXQuisite.m in Sources */,
+				2AD977781788EB3C01430222 /* NSMutableArray+PXQuisite.m in Sources */,
+				B4E5741C95BA8D266D57E28C /* NSMutableDictionary+PXQuisite.m in Sources */,
+				C4CC55D72F2CD9532924B45D /* NSObject+PXQuisite.m in Sources */,
+				50473BC94635D99A512321C5 /* NSString+PXQuisite.m in Sources */,
+				3FEA2FCFE42749BC7D89FCF3 /* NSURL+PXQuisite.m in Sources */,
+				5DF005C9E52374F421408685 /* Pods-Tests-PXQuisiteExtensions-dummy.m in Sources */,
+				91A416A22D7B537BD6A90D34 /* UIApplication+PXQuisite.m in Sources */,
+				A52CB4FDA727FC81C0F2DF6F /* UIDevice+PXQuisite.m in Sources */,
+				46AB1595BEF21F40043DA9A9 /* UIScreen+PXQuisite.m in Sources */,
+				47FBE6D7479D05C8B54A42EF /* UIScreenMode+PXQuisite.m in Sources */,
+				C473A6C939706CBA33FAAB63 /* UIView+PXQuisite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4CC8A3361D4DF840C18DBE9 /* Sources */ = {
+		781DB22FF95618FF51B4675C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E7194B8A08AAFB35923BA89 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m in Sources */,
-				CBC5D0A5A035B80486AEE2B7 /* URSArrayPreviewController.m in Sources */,
+				EE7F4219B2C703CBAD38B446 /* Pods-PXQuisiteDeveloper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6AC2EFB2BFE6158782E9561 /* Sources */ = {
+		7A5D70BA0148A54D9A52BBCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1416FAC8FC91C9985D08745D /* Pods-Tests-dummy.m in Sources */,
+				DB6B10DA745D933A2CFABC40 /* NSBundle+PXQuisiteDeveloper.m in Sources */,
+				E611B3D54F38505C6634B11D /* PXQArrayPreviewController.m in Sources */,
+				514992D0DA001461EF8ECB08 /* PXQIndexedObjectPreviewCell.m in Sources */,
+				284C323B8443C96E23776028 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E034387740026D42CCB39EF3 /* Sources */ = {
+		856EA0D58B7373E398CC4E8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D0821C329A4A4F8AE48FC3 /* Pods-Tests-PXQuisiteDeveloper-dummy.m in Sources */,
-				3704E0E52209BEEF91B38A97 /* URSArrayPreviewController.m in Sources */,
+				ABBF228A3B125D549F2F9DB9 /* Pods-Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBBDCAC7CA54B2E55904A6A0 /* Sources */ = {
+		BB0820937ABD6A8329E83490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA0475CD6EF399F75A7BECCD /* Sources */ = {
+		C378CCB367688E574DF40EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55575F4B2B822A9EB8034D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F272AECBFEC1675849DC9FAC /* NSArray+PXQuisite.m in Sources */,
+				3E3953B6EBF588298BB93E5A /* NSBundle+PXQuisite.m in Sources */,
+				1E89132E8223E5141DD5949E /* NSDate+PXQuisite.m in Sources */,
+				6F4C9F5A9E2D11562F117DB5 /* NSDateFormatter+PXQuisite.m in Sources */,
+				678C631DC48D0583A88A085B /* NSDictionary+PXQuisite.m in Sources */,
+				591059BF411B504AA1C56CAE /* NSError+PXQuisite.m in Sources */,
+				D076CC36ECD206E5E21FC6C7 /* NSException+PXQuisite.m in Sources */,
+				49FC6EAAA6498B68F33CEB69 /* NSMutableArray+PXQuisite.m in Sources */,
+				B371933BDC0A350E8C6A99BC /* NSMutableDictionary+PXQuisite.m in Sources */,
+				08CAF26A0ADC7582ACA09136 /* NSObject+PXQuisite.m in Sources */,
+				C2EBFAE93BF3310AEE7B6A51 /* NSString+PXQuisite.m in Sources */,
+				7A0925F3671828AD2E624124 /* NSURL+PXQuisite.m in Sources */,
+				48AC8F5F3F692AE55A7313FD /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-dummy.m in Sources */,
+				BBDBF914AB4D8FE058D7D220 /* UIApplication+PXQuisite.m in Sources */,
+				D75126955F909487E7203A2E /* UIDevice+PXQuisite.m in Sources */,
+				734E4F8FCF4A00BF66E5A77F /* UIScreen+PXQuisite.m in Sources */,
+				348C116410EB9501BA2D44F3 /* UIScreenMode+PXQuisite.m in Sources */,
+				15FB777B679675B55EB0956F /* UIView+PXQuisite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06C9C0C8053ABC52444BEA97 /* PBXTargetDependency */ = {
+		021A1DFE31A3A48868EB6E9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXQuisiteExtensions";
-			target = C8C806EB7C05A83D88638EED /* Pods-Tests-PXQuisiteExtensions */;
-			targetProxy = 6E7177E27F9CF847F9BD43D5 /* PBXContainerItemProxy */;
+			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
+			target = 8DA900FFE4E59D51A1A6AA2E /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */;
+			targetProxy = 535BD5A613A5BB180F05DE62 /* PBXContainerItemProxy */;
 		};
-		18FEC4E59075A202DA0B3708 /* PBXTargetDependency */ = {
+		34C093E8811224E3B6F439D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			target = 96F2D3C9F4793DFFCDDB5367 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper */;
-			targetProxy = 39C2481AA5D417F8AB044566 /* PBXContainerItemProxy */;
+			target = 1807473CE7B7E5F5B40509FF /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper */;
+			targetProxy = E6FC02D34C93452664E4CB1D /* PBXContainerItemProxy */;
 		};
-		3E9465D56C31735B678819F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			target = 88F6C19C3D1F0ECF108C4E04 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper */;
-			targetProxy = C98F306A289D656A16F9EACF /* PBXContainerItemProxy */;
-		};
-		536FC0C59740FC5D18448C8F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
-			target = 25A08774CF8C9BC0095EC70E /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */;
-			targetProxy = 7D3F792C476CF3A246DD34EB /* PBXContainerItemProxy */;
-		};
-		6A93C18B893608C3ED265581 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXQuisiteDeveloper";
-			target = A7AD35186EB42739056D6C15 /* Pods-Tests-PXQuisiteDeveloper */;
-			targetProxy = E3DCFD20D048C0D315CE1D7F /* PBXContainerItemProxy */;
-		};
-		7E56DA74CB0E001F1FDBF976 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper";
-			target = DF8F2549480935705AAF20FE /* Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper */;
-			targetProxy = B4BFC32D3738BEE51EE16DED /* PBXContainerItemProxy */;
-		};
-		7EED28F46BAF5D16B494E7F7 /* PBXTargetDependency */ = {
+		4D612003156D3C8E034519F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
-			target = 0C15ACD1CE5B217273A06E66 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */;
-			targetProxy = 6C9437CC6431C50E3C8A31D1 /* PBXContainerItemProxy */;
+			target = 8DA900FFE4E59D51A1A6AA2E /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */;
+			targetProxy = 213A6AC939270487866EAD5F /* PBXContainerItemProxy */;
 		};
-		85FB335344E0E6AFA90238E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions";
-			target = 0C15ACD1CE5B217273A06E66 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions */;
-			targetProxy = D628A216AB36E391E0866362 /* PBXContainerItemProxy */;
-		};
-		EA8341FF8ECA697F36FEEC38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-PXQuisiteExtensions";
-			target = C8C806EB7C05A83D88638EED /* Pods-Tests-PXQuisiteExtensions */;
-			targetProxy = E4692A071B5B818D507F84A0 /* PBXContainerItemProxy */;
-		};
-		F46D7C1DFA4C83D7F2BB2D6F /* PBXTargetDependency */ = {
+		63F0364BA6F8E0714999D89E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions";
-			target = 000138BAA7B306563984E5B9 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions */;
-			targetProxy = 3A7077E3474884FDB6F0FEF1 /* PBXContainerItemProxy */;
+			target = 59A03F202C24DBF9B5B7BD5C /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions */;
+			targetProxy = 90EAF05DC4C03E732C74ED88 /* PBXContainerItemProxy */;
+		};
+		664D6D7D3268491BE21C507E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions";
+			target = 79FBC6722A950A4DFE348667 /* Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions */;
+			targetProxy = 89C5EA268405ECB845AD63E4 /* PBXContainerItemProxy */;
+		};
+		6B4A2F6AD8A5AE1A4CEB2815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteExtensions";
+			target = 690136742C43F4F302E8FF05 /* Pods-Tests-PXQuisiteExtensions */;
+			targetProxy = 5F09F1F4F7A6F0F96F8587BD /* PBXContainerItemProxy */;
+		};
+		90DBDE2FB1BA2BFABE6826E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteDeveloper";
+			target = 1405FAD0A71CB3F6DD3C9E02 /* Pods-Tests-PXQuisiteDeveloper */;
+			targetProxy = 479448A326C4A06D48576DC3 /* PBXContainerItemProxy */;
+		};
+		B7D2EFDB0358F278E61E861D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteExtensions";
+			target = 690136742C43F4F302E8FF05 /* Pods-Tests-PXQuisiteExtensions */;
+			targetProxy = 459E173448E62D5CBD389CD5 /* PBXContainerItemProxy */;
+		};
+		EDF35BFC54B670A9F1FFB1D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			target = 1F6587D7A6BA3EC25C0EF5B1 /* Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper */;
+			targetProxy = 703D9C4AC57769E783D1584B /* PBXContainerItemProxy */;
+		};
+		FBF5424CE0369871F28B2A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper";
+			target = A283CA94998A32AF39BD68A8 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper */;
+			targetProxy = E0D5978082148C922CE37768 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		065A07057400F65CC1FC7F84 /* Debug */ = {
+		12A4C73E2F885A298989E779 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE2AB9007CE24A6140122500 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		06D80273627BA1F8BDA97A96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteDeveloper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		0AB12905BFA012412A27BE1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1745FBF15DA8CF69E8BF074 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteExtensions/Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		1392E02272496D614D996B1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 229DE66DA557FCAAD00A223A /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		157ED06CE67DE91F62B9DEB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteDeveloper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		2ADA95CB9DCF1E726D839AA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteDeveloper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3A44BB0E5DA06195D715C8E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EE19368FEEE29A947A16366 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		4A2504F0DB75E0CC04D6D8DD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EEE9B3D8ABFC0D32D44E78C /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4DEA3D989C7F63F020A9DED3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		5CA8295CB1C6430632261D00 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8F87B42FB83018C9FE07A8E /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = CEE1CB42567E86C110F102A6 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -1196,115 +1108,41 @@
 			};
 			name = Debug;
 		};
-		6D726DAC573BA6087A255011 /* Release */ = {
+		15FDBE042103BDC7442C3F1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteDeveloper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		6F21D702C87DFF4714645581 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7E43B5249F059196EC9430A2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9D21135151C088E1FECB7E6 /* Pods-PXQuisiteDeveloper.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		94033CABBD821ECF3002EE33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A9789C627681D93E4BA2449C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE2AB9007CE24A6140122500 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		AA2BAC4C291D82643EFFFB43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EEE9B3D8ABFC0D32D44E78C /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		B84AF87118A640B8E6D3B8C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1745FBF15DA8CF69E8BF074 /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteExtensions/Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E4D4B83A8760677178BB8A25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = PXQuisiteExtensions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E7453C61A7C6BCF176690155 /* Debug */ = {
+		1F1E23340268C065BE5217A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1343,9 +1181,138 @@
 			};
 			name = Debug;
 		};
-		EA7A38B5A7B77BA7E8124D47 /* Debug */ = {
+		38B64DE00F8B0607A656B15A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88168D81332934CCB5F1DDBB /* Pods-PXQuisiteDeveloper.debug.xcconfig */;
+			baseConfigurationReference = 97DB78AA60882A30B3B2A112 /* Pods-PXQuisiteDeveloper.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		412252B57B3E909610DCFA44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteDeveloper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		47B7A3D80157AE1C3B3E28A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED5B9C3AC3A836FD19482DC /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteExtensions/Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		52F12A82066D1D0F58F15942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEB6AB39EE970AD3C3FCEB0 /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6BFAD8B40F655F904B98E803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDEC6705BB1F29E19963DB6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8032CE9CFA8FB8A9CBBD98F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8D966F21AD3B1841EE0AAEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75ED5CE56151D99F4F796475 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8E7AB94211862C55DC33B842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteDeveloper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9935AF23D3707D7D681AEE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75ED5CE56151D99F4F796475 /* Pods-Tests-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteExtensions/Pods-Tests-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9D46E1201755CEDAD49AB9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2234313A35C16067CE57FD25 /* Pods-PXQuisiteDeveloper.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -1359,9 +1326,63 @@
 			};
 			name = Debug;
 		};
-		F389B45F511AF87126735A80 /* Debug */ = {
+		A155EF290ADE0BD73617F5DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 229DE66DA557FCAAD00A223A /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteDeveloper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AE14A873988938F42A0254E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BBCD87593F6D9C587383A4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDEC6705BB1F29E19963DB6 /* Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper/Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE1FDC0CE731818F76AF8447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ED5B9C3AC3A836FD19482DC /* Pods-PXQuisiteDeveloper-PXQuisiteExtensions-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-PXQuisiteDeveloper-PXQuisiteExtensions/Pods-PXQuisiteDeveloper-PXQuisiteExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0BFE67F114CAF82B0071F07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEB6AB39EE970AD3C3FCEB0 /* Pods-Tests-PXQuisiteDeveloper-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-PXQuisiteDeveloper/Pods-Tests-PXQuisiteDeveloper-prefix.pch";
@@ -1375,143 +1396,158 @@
 			};
 			name = Debug;
 		};
-		F537BB137EF7EBC0816E9494 /* Release */ = {
+		CC7CBF0A421F8F890DC766F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD9E7ACFD4A43520835D1046 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D6DC7F578F419E4001CA8A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DAFD98188755CEC5F496AB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DF5829B51EEFA2EE33183F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = PXQuisiteDeveloper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		163F98FF4BAF7BD9053FA8DF /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions" */ = {
+		1F537C847FF07C135B67AAD5 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94033CABBD821ECF3002EE33 /* Debug */,
-				6F21D702C87DFF4714645581 /* Release */,
+				BBCD87593F6D9C587383A4F0 /* Debug */,
+				6BFAD8B40F655F904B98E803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		351CC9F0FA0B3E10D20D7D1E /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper" */ = {
+		2288AF61F8E2BCAEB106E11A /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions-PXQuisiteExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F389B45F511AF87126735A80 /* Debug */,
-				1392E02272496D614D996B1F /* Release */,
+				8032CE9CFA8FB8A9CBBD98F6 /* Debug */,
+				D6DC7F578F419E4001CA8A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4063F58742185B4BABCEAD00 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper" */ = {
+		5BE1F024B9D091E236358815 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA7A38B5A7B77BA7E8124D47 /* Debug */,
-				7E43B5249F059196EC9430A2 /* Release */,
+				C0BFE67F114CAF82B0071F07 /* Debug */,
+				52F12A82066D1D0F58F15942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4106A78BC82A5F038C801944 /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions" */ = {
+		7164828B323407738359ADFA /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A2504F0DB75E0CC04D6D8DD /* Debug */,
-				AA2BAC4C291D82643EFFFB43 /* Release */,
+				AE14A873988938F42A0254E1 /* Debug */,
+				DAFD98188755CEC5F496AB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		509A616E7AC0B32D46A7E745 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions-PXQuisiteExtensions" */ = {
+		813D2CDB6362BF52076F7548 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DEA3D989C7F63F020A9DED3 /* Debug */,
-				E4D4B83A8760677178BB8A25 /* Release */,
+				9D46E1201755CEDAD49AB9E6 /* Debug */,
+				38B64DE00F8B0607A656B15A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58CFFF798AC0CD99B8D592CB /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper" */ = {
+		8F84185BC407F3A2B761E715 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				157ED06CE67DE91F62B9DEB0 /* Debug */,
-				2ADA95CB9DCF1E726D839AA5 /* Release */,
+				47B7A3D80157AE1C3B3E28A9 /* Debug */,
+				BE1FDC0CE731818F76AF8447 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BE3976893A56FB101D5BBBF /* Build configuration list for PBXProject "Pods" */ = {
+		A64AA08CE4A71351578F2E80 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7453C61A7C6BCF176690155 /* Debug */,
-				F537BB137EF7EBC0816E9494 /* Release */,
+				1F1E23340268C065BE5217A4 /* Debug */,
+				15FDBE042103BDC7442C3F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BD033CD23BDFAFE69B14551 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper" */ = {
+		AA46615632BE473D4F9A0AF7 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				065A07057400F65CC1FC7F84 /* Debug */,
-				A9789C627681D93E4BA2449C /* Release */,
+				12A4C73E2F885A298989E779 /* Debug */,
+				CC7CBF0A421F8F890DC766F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D1D7EBEE1E045FB43F427AA /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteExtensions" */ = {
+		F11305DFEED607C115287A4E /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B84AF87118A640B8E6D3B8C2 /* Debug */,
-				0AB12905BFA012412A27BE1A /* Release */,
+				9935AF23D3707D7D681AEE21 /* Debug */,
+				8D966F21AD3B1841EE0AAEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B4216D9077973B8ACC91D8EA /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper" */ = {
+		FAE14BA5E4EFDEB9033CE91D /* Build configuration list for PBXNativeTarget "Pods-Tests-PXQuisiteDeveloper-PXQuisiteDeveloper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				06D80273627BA1F8BDA97A96 /* Debug */,
-				6D726DAC573BA6087A255011 /* Release */,
+				A155EF290ADE0BD73617F5DA /* Debug */,
+				412252B57B3E909610DCFA44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA94411C02653FC4FD7B035E /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		FBF3AE86B62A283C058E27A9 /* Build configuration list for PBXNativeTarget "Pods-PXQuisiteDeveloper-PXQuisiteDeveloper-PXQuisiteDeveloper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CA8295CB1C6430632261D00 /* Debug */,
-				3A44BB0E5DA06195D715C8E2 /* Release */,
+				8E7AB94211862C55DC33B842 /* Debug */,
+				DF5829B51EEFA2EE33183F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC89677FE8E00DE385855AF3 /* Project object */;
+	rootObject = 9BCF61E2247BF5C6536C8FB2 /* Project object */;
 }

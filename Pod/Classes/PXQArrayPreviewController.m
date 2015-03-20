@@ -3,19 +3,21 @@
 //  URSGenericListViewController.m
 //  Pods
 //
-//  Created by Dragolov,Atanas on 18.03.15.
+//  Created by ;,Atanas on 18.03.15.
 //
 ///////////////////////////////////////////////////////////////////////////
-#import "URSArrayPreviewController.h"
+#import "PXQArrayPreviewController.h"
+#import "PXQIndexedObjectPreviewCell.h"
 #import <PXQuisiteExtensions/PXQuisiteExtensions.h>
+#import "NSBundle+PXQuisiteDeveloper.h"
 
-@interface URSArrayPreviewController ()
+@interface PXQArrayPreviewController ()
 
 @property (nonatomic, strong, readonly) NSObject * dataBindLock;
 
 @end
 
-@implementation URSArrayPreviewController
+@implementation PXQArrayPreviewController
 
 @synthesize tableView = _tableView;
 @synthesize noResultsLabel = _noResultsLabel;
@@ -23,10 +25,8 @@
 
 - (id)init {
     
-    self = [super init];
+    self = [self initWithNibName:NSStringFromClass(self.class) bundle:[NSBundle bundleForPXQuisiteDeveloper]];
  
-    [self onInit];
-    
     return self;
 }
 
@@ -97,6 +97,11 @@
         
         [_noResultsLabel applyAutoresizeAll];
     }
+    
+    UINib * genericCellNib = [UINib nibWithNibName:@"PXQIndexedObjectPreviewCell"
+                                            bundle:[NSBundle bundleForPXQuisiteDeveloper]];
+    
+    [self.tableView registerNib:genericCellNib forCellReuseIdentifier:@"GenericCell"];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -158,13 +163,32 @@
     return [self.dataSourceItems objectAtIndex:indexPath.row];
 }
 
+- (NSString *)classNameForDataItemAtPath:(NSIndexPath *)indexpath {
+    
+    return NSStringFromClass([self dataItemAtIndexPath:indexpath].class);
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return 70.0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:@"reusableCell"];
+    NSObject * dataItem = [self dataItemAtIndexPath:indexPath];
+    
+    NSString * classname = NSStringFromClass(dataItem.class);
+    
+    UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:classname];
 
     if ( ! cell ) {
         
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"reusableCell"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"GenericCell"];
+    }
+    
+    if ( [cell isKindOfClass:[PXQIndexedObjectPreviewCell class]] ) {
+        
+        [((PXQIndexedObjectPreviewCell *)cell) dataBind:dataItem forIndexPath:indexPath];
     }
     
     return cell;

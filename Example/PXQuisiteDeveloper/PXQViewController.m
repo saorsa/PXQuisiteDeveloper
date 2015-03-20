@@ -7,7 +7,7 @@
 //
 
 #import "PXQViewController.h"
-#import <PXQuisiteDeveloper/URSArrayPreviewController.h>
+#import <PXQuisiteDeveloper/PXQArrayPreviewController.h>
 
 @interface PXQViewController ()
 
@@ -31,10 +31,12 @@
     
     [super viewDidAppear:animated];
     
-    URSArrayPreviewController * arr = [URSArrayPreviewController new];
+    
+    PXQArrayPreviewController * arr = [PXQArrayPreviewController new];
     
     [self presentViewController:arr animated:YES completion:^{
         
+        [arr dataBind:@[@"Atanas", @"Dragolov", @(NO), [NSDate date], [NSNull null]]];
     }];
 }
 
